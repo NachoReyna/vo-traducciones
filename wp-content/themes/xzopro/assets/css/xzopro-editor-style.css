@@ -1,0 +1,24 @@
+/*
+  Theme Name:  Xzopro.
+  Theme URL: http://tf.themedraft.com/wp/xzopro/
+  Author: ThemeDraft
+  Author URI: https://themeforest.net/user/themedraft
+  Version: 1.0
+*/
+
+blockquote {
+    padding-left: 20px;
+    position: relative;
+    font-style: italic;
+    font-size: 16px;
+}
+
+blockquote:before {
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    content: '';
+    left: 0;
+    top: 0;
+    background: #0a6db7;
+}

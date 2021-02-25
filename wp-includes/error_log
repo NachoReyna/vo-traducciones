@@ -1,0 +1,82 @@
+[07-May-2020 16:08:09 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/votraduc/public_html/wp-includes/rss-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/rss-functions.php on line 9
+[07-Jun-2020 17:06:47 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/votraduc/public_html/wp-includes/rss-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/rss-functions.php on line 9
+[07-Jul-2020 16:15:36 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/votraduc/public_html/wp-includes/rss-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/rss-functions.php on line 9
+[30-Jul-2020 03:14:38 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home3/votraduc/public_html/wp-includes/update.php:813
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/update.php on line 813
+[31-Jul-2020 05:12:27 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home3/votraduc/public_html/wp-includes/class-wp-xmlrpc-server.php:23
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[31-Jul-2020 05:12:35 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home3/votraduc/public_html/wp-includes/class-wp-xmlrpc-server.php:23
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[31-Jul-2020 05:13:00 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home3/votraduc/public_html/wp-includes/class-wp-xmlrpc-server.php:23
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[01-Aug-2020 07:20:15 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home3/votraduc/public_html/wp-includes/class-wp-xmlrpc-server.php:23
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[01-Aug-2020 07:35:19 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home3/votraduc/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/feed-atom-comments.php on line 8
+[07-Aug-2020 16:12:26 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/votraduc/public_html/wp-includes/rss-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/rss-functions.php on line 9
+[02-Sep-2020 18:39:03 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home3/votraduc/public_html/wp-includes/update.php:813
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/update.php on line 813
+[02-Sep-2020 18:39:22 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home3/votraduc/public_html/wp-includes/update.php:813
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/update.php on line 813
+[03-Sep-2020 01:34:23 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home3/votraduc/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/feed-atom-comments.php on line 8
+[03-Sep-2020 01:34:44 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home3/votraduc/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/feed-atom-comments.php on line 8
+[07-Sep-2020 16:33:33 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/votraduc/public_html/wp-includes/rss-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/rss-functions.php on line 9
+[07-Oct-2020 16:28:09 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/votraduc/public_html/wp-includes/rss-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/rss-functions.php on line 9
+[07-Nov-2020 15:40:25 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/votraduc/public_html/wp-includes/rss-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/rss-functions.php on line 9
+[12-Dec-2020 00:39:33 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/votraduc/public_html/wp-includes/rss-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/rss-functions.php on line 9
+[03-Feb-2021 13:29:17 America/Mexico_City] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home3/votraduc/public_html/wp-includes/functions.php on line 8
+[03-Feb-2021 13:29:17 America/Mexico_City] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home3/votraduc/public_html/wp-includes/functions.php on line 8
+[03-Feb-2021 13:29:17 America/Mexico_City] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home3/votraduc/public_html/wp-includes/functions.php on line 8
+[03-Feb-2021 13:29:17 America/Mexico_City] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home3/votraduc/public_html/wp-includes/functions.php on line 8
+[03-Feb-2021 13:29:17 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/votraduc/public_html/wp-includes/functions.php on line 8
+[07-Feb-2021 10:39:52 America/Mexico_City] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home3/votraduc/public_html/wp-includes/functions.php on line 8
+[07-Feb-2021 10:39:52 America/Mexico_City] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home3/votraduc/public_html/wp-includes/functions.php on line 8
+[07-Feb-2021 10:39:52 America/Mexico_City] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home3/votraduc/public_html/wp-includes/functions.php on line 8
+[07-Feb-2021 10:39:52 America/Mexico_City] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home3/votraduc/public_html/wp-includes/functions.php on line 8
+[07-Feb-2021 10:39:52 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/votraduc/public_html/wp-includes/functions.php on line 8

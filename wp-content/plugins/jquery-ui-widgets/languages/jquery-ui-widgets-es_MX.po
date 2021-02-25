@@ -1,0 +1,364 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jQuery UI Widgets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 06:39+0000\n"
+"PO-Revision-Date: 2020-06-04 06:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.1"
+
+#: jquery-ui-widgets.php:594
+msgid ""
+"%1$Cannot find the file: %2$%3$%4$. Reverting to the standard theme. Please "
+"enter a valid custom stylesheet path.%5$"
+msgstr ""
+
+#: jquery-ui-widgets.php:415
+msgid "Accordion"
+msgstr ""
+
+#: jquery-ui-widgets.php:401
+#, php-format
+msgid ""
+"Add custom jQuery code above, e.g. %1$s and it will be added automatically "
+"to your site. %2$sDon't forget to add your jQuery inside the proper wrapper."
+"%3$s"
+msgstr ""
+
+#: jquery-ui-widgets.php:418
+msgid "Autocomplete"
+msgstr ""
+
+#: jquery-ui-widgets.php:545
+msgid "Black Tie"
+msgstr ""
+
+#: jquery-ui-widgets.php:491
+msgid "Blind"
+msgstr ""
+
+#: jquery-ui-widgets.php:546
+msgid "Blitzer"
+msgstr ""
+
+#: jquery-ui-widgets.php:494
+msgid "Bounce"
+msgstr ""
+
+#: jquery-ui-widgets.php:421
+msgid "Button"
+msgstr ""
+
+#: jquery-ui-widgets.php:570
+msgid ""
+"Choose a standard jQuery UI theme to render widgets. Preview these themes on "
+"the jQuery UI"
+msgstr ""
+
+#: jquery-ui-widgets.php:497
+msgid "Clip"
+msgstr ""
+
+#: jquery-ui-widgets.php:500
+msgid "Core Effects"
+msgstr ""
+
+#: jquery-ui-widgets.php:576
+#, php-format
+msgid ""
+"Create a %1$scustom theme%2$s to override the standard theme. Upload to "
+"%3$s%4$s%5$s and enter the path/name of the custom stylesheet above, "
+"relative to this folder. See the Plugin %6$sFAQ%7$s for detailed "
+"instructions on using custom themes."
+msgstr ""
+
+#: jquery-ui-widgets.php:547
+msgid "Cupertino"
+msgstr ""
+
+#: jquery-ui-widgets.php:392
+msgid "Custom jQuery Code"
+msgstr ""
+
+#: jquery-ui-widgets.php:548
+msgid "Dark Hive"
+msgstr ""
+
+#: jquery-ui-widgets.php:618
+msgid "Database Options"
+msgstr ""
+
+#: jquery-ui-widgets.php:427
+msgid "Datepicker"
+msgstr ""
+
+#. Author of the plugin
+msgid "David Gwyer"
+msgstr ""
+
+#: jquery-ui-widgets.php:430
+msgid "Dialog"
+msgstr ""
+
+#: jquery-ui-widgets.php:549
+msgid "Dot Luv"
+msgstr ""
+
+#: jquery-ui-widgets.php:433
+msgid "Draggable"
+msgstr ""
+
+#: jquery-ui-widgets.php:503
+msgid "Drop"
+msgstr ""
+
+#: jquery-ui-widgets.php:438
+msgid "Droppable"
+msgstr ""
+
+#: jquery-ui-widgets.php:609
+msgid ""
+"Edit the custom CSS rules above to override the current jQuery UI theme "
+"(whether a standard or custom theme). This is a great place to tweak the "
+"theme styles."
+msgstr ""
+
+#: jquery-ui-widgets.php:550
+msgid "Eggplant"
+msgstr ""
+
+#: jquery-ui-widgets.php:551
+msgid "Excite Bike"
+msgstr ""
+
+#: jquery-ui-widgets.php:508
+msgid "Explode"
+msgstr ""
+
+#: jquery-ui-widgets.php:511
+msgid "Fade"
+msgstr ""
+
+#: jquery-ui-widgets.php:552
+msgid "Flick"
+msgstr ""
+
+#: jquery-ui-widgets.php:514
+msgid "Fold"
+msgstr ""
+
+#: jquery-ui-widgets.php:517
+msgid "Highlight"
+msgstr ""
+
+#: jquery-ui-widgets.php:553
+msgid "Hot Sneaks"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://wordpress.org/plugins/jquery-ui-widgets/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.wpgoplugins.com"
+msgstr ""
+
+#: jquery-ui-widgets.php:554
+msgid "Humanity"
+msgstr ""
+
+#. Name of the plugin
+msgid "jQuery UI Widgets"
+msgstr ""
+
+#: jquery-ui-widgets.php:336
+msgid "jQuery UI Widgets Options"
+msgstr ""
+
+#: jquery-ui-widgets.php:555
+msgid "Le Frog"
+msgstr ""
+
+#: jquery-ui-widgets.php:441
+msgid "Menu"
+msgstr ""
+
+#: jquery-ui-widgets.php:556
+msgid "Mint Choc"
+msgstr ""
+
+#: jquery-ui-widgets.php:444
+msgid "Mouse"
+msgstr ""
+
+#: jquery-ui-widgets.php:484
+msgid ""
+"Note: Scripts such as UI Core, Mouse, Position etc. are included by default "
+"with other widget scripts."
+msgstr ""
+
+#: jquery-ui-widgets.php:539
+msgid ""
+"Note: The Core Effects script is included by default with other effect "
+"scripts."
+msgstr ""
+
+#: jquery-ui-widgets.php:623
+msgid "Only check this if you want to reset Plugin settings upon reactivation."
+msgstr ""
+
+#: jquery-ui-widgets.php:557
+msgid "Overcast"
+msgstr ""
+
+#: jquery-ui-widgets.php:606
+msgid "Override jQuery UI Theme Styles"
+msgstr ""
+
+#: jquery-ui-widgets.php:558
+msgid "Pepper Grinder"
+msgstr ""
+
+#: jquery-ui-widgets.php:447
+msgid "Position"
+msgstr ""
+
+#: jquery-ui-widgets.php:450
+msgid "Progress Bar"
+msgstr ""
+
+#: jquery-ui-widgets.php:520
+msgid "Pulsate"
+msgstr ""
+
+#: jquery-ui-widgets.php:559
+msgid "Redmond"
+msgstr ""
+
+#: jquery-ui-widgets.php:453
+msgid "Resizable"
+msgstr ""
+
+#: jquery-ui-widgets.php:622
+msgid "Restore defaults upon Plugin deactivation/reactivation"
+msgstr ""
+
+#: jquery-ui-widgets.php:628
+msgid "Save Changes"
+msgstr ""
+
+#: jquery-ui-widgets.php:525
+msgid "Scale"
+msgstr ""
+
+#: jquery-ui-widgets.php:542
+msgid "Select jQuery UI Theme"
+msgstr ""
+
+#: jquery-ui-widgets.php:456
+msgid "Selectable"
+msgstr ""
+
+#: jquery-ui-widgets.php:461
+msgid "Selectmenu"
+msgstr ""
+
+#: jquery-ui-widgets.php:528
+msgid "Shake"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Simple, clean, and flexible way to add jQuery UI widgets to your site pages."
+msgstr ""
+
+#: jquery-ui-widgets.php:531
+msgid "Slide"
+msgstr ""
+
+#: jquery-ui-widgets.php:464
+msgid "Slider"
+msgstr ""
+
+#: jquery-ui-widgets.php:560
+msgid "Smoothness"
+msgstr ""
+
+#: jquery-ui-widgets.php:470
+msgid "Sortable"
+msgstr ""
+
+#: jquery-ui-widgets.php:561
+msgid "South Street"
+msgstr ""
+
+#: jquery-ui-widgets.php:467
+msgid "Spinner"
+msgstr ""
+
+#: jquery-ui-widgets.php:562
+msgid "Start"
+msgstr ""
+
+#: jquery-ui-widgets.php:563
+msgid "Sunny"
+msgstr ""
+
+#: jquery-ui-widgets.php:564
+msgid "Swanky Purse"
+msgstr ""
+
+#: jquery-ui-widgets.php:473
+msgid "Tabs"
+msgstr ""
+
+#: jquery-ui-widgets.php:571
+msgid "ThemeRoller page"
+msgstr ""
+
+#: jquery-ui-widgets.php:476
+msgid "Tooltip"
+msgstr ""
+
+#: jquery-ui-widgets.php:534
+msgid "Transfer"
+msgstr ""
+
+#: jquery-ui-widgets.php:565
+msgid "Trontastic"
+msgstr ""
+
+#: jquery-ui-widgets.php:424
+msgid "UI Core"
+msgstr ""
+
+#: jquery-ui-widgets.php:566
+msgid "UI Darkness"
+msgstr ""
+
+#: jquery-ui-widgets.php:567
+msgid "UI Lightness"
+msgstr ""
+
+#: jquery-ui-widgets.php:487
+msgid "Use These jQuery Effect Scripts"
+msgstr ""
+
+#: jquery-ui-widgets.php:411
+msgid "Use These jQuery UI Scripts"
+msgstr ""
+
+#: jquery-ui-widgets.php:568
+msgid "Vader"
+msgstr ""
+
+#: jquery-ui-widgets.php:479
+msgid "Widget Factory"
+msgstr ""

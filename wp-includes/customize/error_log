@@ -1,0 +1,8 @@
+[31-Jul-2020 14:28:36 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home3/votraduc/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[31-Jul-2020 14:28:41 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home3/votraduc/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/votraduc/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17

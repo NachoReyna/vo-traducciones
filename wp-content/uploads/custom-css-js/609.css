@@ -1,0 +1,58 @@
+<style type="text/css">
+.site-branding img{
+    max-height: none !important;
+}
+
+.custom-logo{
+    max-width:50%;
+    height:auto;
+}
+
+.footer-widget-logo img{
+     max-width:50%;
+    height:auto;
+}
+
+
+.hoe{
+    margin-top:15%;
+}
+
+
+.fontW{
+    font-weight:400 !important;
+}
+
+
+.main-navigation #menu-item-1011 .sub-menu{
+ width:475px !important; 
+}
+
+
+.vc_row  .wpb_wrapper{
+    font-size:18px !important;
+}
+
+
+.vc_row  .wpb_wrapper h1{
+    font-size:20px !important;
+}
+
+
+.wpb_video_widget .wpb_wrapper iframe {
+	width: 100%;
+	height: 130% !important;
+	display: block;
+	position: absolute;
+	margin: 0;
+	top: 0;
+	left: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html{
+    font-size:1em !important;
+}
+</style>

@@ -1,0 +1,31 @@
+
+---Downloaded files---
+The import files for: Xzopro Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://traducciones.puntotriple.com.mx
+Data file = /home/puntotri/traducciones.puntotriple.com.mx/wp-content/themes/xzopro//inc/demo-content/demo-content.xml
+Widget file = /home/puntotri/traducciones.puntotriple.com.mx/wp-content/themes/xzopro//inc/demo-content/widgets.wie
+Customizer file = /home/puntotri/traducciones.puntotriple.com.mx/wp-content/themes/xzopro//inc/demo-content/customizer.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Sidebar : 
+
+Buscar - Search - Widget already exists
+Categorías - No Title - Widget already exists
+Xzopro : Recent Posts - No Title - Widget already exists
+Comentarios recientes - Recent comments - Widget already exists
+
+Footer Widget : 
+
+Xzopro : About And Social Widget - No Title - Widget already exists
+Menú de Navegación - Usefull link - Widget already exists
+Xzopro : Recent Posts - No Title - Widget already exists
+xzopro : Address Widget - Contact Information - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!

@@ -1,0 +1,1714 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Xzopro Toolkit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-09 20:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.1"
+
+#: xzopro-toolkit.php:52
+msgid "-- Select page --"
+msgstr ""
+
+#: inc/custom-addons/custom-addons.php:58
+msgid ""
+"/wp-admin/themes.php?page=tgmpa-install-plugins\" target=\"_blank\">Visual "
+"Composer</a></strong> plugin to be installed and activated on your site."
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:67
+msgid "0 Column"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:12
+msgid "01 - Home Page 1"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:30
+msgid "02 - Home Page 2"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:48
+msgid "03 - About Us"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:71
+msgid "04 - Service 1"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:89
+msgid "05 - Service 2"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:109
+msgid "06 - Single Service"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:125
+msgid "07 - Project Masonry"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:141
+msgid "08 - Project 2 Column"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:158
+msgid "09 - Project 3 Column"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:20
+#: inc/custom-addons/testimonial-addon.php:141
+#: inc/custom-addons/testimonial-addon.php:157
+#: inc/custom-addons/recent-post-addon.php:34
+msgid "1"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:44
+#: inc/custom-addons/video-popup-addon.php:68
+msgid "1 Column"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:29
+#: inc/custom-addons/testimonial-addon.php:32
+#: inc/custom-addons/slider-addon.php:32
+#: inc/custom-addons/recent-post-addon.php:43
+msgid "10"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:174
+msgid "10 - Project 4 Column"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:53
+#: inc/custom-addons/video-popup-addon.php:77
+msgid "10 Column"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:78
+#: inc/custom-addons/slider-addon.php:105
+msgid "10 Seconds"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:191
+msgid "11 - Single Project"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:54
+#: inc/custom-addons/video-popup-addon.php:78
+msgid "11 Column"
+msgstr ""
+
+#: inc/custom-addons/vc-templates.php:216
+msgid "12 - Contact"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:55
+msgid "12 Column"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:21
+#: inc/custom-addons/testimonial-addon.php:24
+#: inc/custom-addons/testimonial-addon.php:142
+#: inc/custom-addons/testimonial-addon.php:158
+#: inc/custom-addons/slider-addon.php:24
+#: inc/custom-addons/recent-post-addon.php:35
+msgid "2"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:45
+#: inc/custom-addons/video-popup-addon.php:69
+msgid "2 Column"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:22
+#: inc/custom-addons/testimonial-addon.php:25
+#: inc/custom-addons/testimonial-addon.php:143
+#: inc/custom-addons/testimonial-addon.php:159
+#: inc/custom-addons/slider-addon.php:25
+#: inc/custom-addons/recent-post-addon.php:36
+msgid "3"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:46
+#: inc/custom-addons/video-popup-addon.php:70
+#: inc/custom-addons/project-addon.php:54
+msgid "3 Column"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:71
+#: inc/custom-addons/slider-addon.php:98
+msgid "3 Seconds"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:23
+#: inc/custom-addons/testimonial-addon.php:26
+#: inc/custom-addons/testimonial-addon.php:144
+#: inc/custom-addons/testimonial-addon.php:160
+#: inc/custom-addons/slider-addon.php:26
+#: inc/custom-addons/recent-post-addon.php:37
+msgid "4"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:47
+#: inc/custom-addons/video-popup-addon.php:71
+#: inc/custom-addons/project-addon.php:55
+msgid "4 Column"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:72
+#: inc/custom-addons/slider-addon.php:99
+msgid "4 Seconds"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:24
+#: inc/custom-addons/testimonial-addon.php:27
+#: inc/custom-addons/slider-addon.php:27
+#: inc/custom-addons/recent-post-addon.php:38
+msgid "5"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:48
+#: inc/custom-addons/video-popup-addon.php:72
+msgid "5 Column"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:73
+#: inc/custom-addons/slider-addon.php:100
+msgid "5 Seconds"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:25
+#: inc/custom-addons/testimonial-addon.php:28
+#: inc/custom-addons/slider-addon.php:28
+#: inc/custom-addons/recent-post-addon.php:39
+msgid "6"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:49
+#: inc/custom-addons/video-popup-addon.php:73
+#: inc/custom-addons/project-addon.php:56
+msgid "6 Column"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:74
+#: inc/custom-addons/slider-addon.php:101
+msgid "6 Seconds"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:26
+#: inc/custom-addons/testimonial-addon.php:29
+#: inc/custom-addons/slider-addon.php:29
+#: inc/custom-addons/recent-post-addon.php:40
+msgid "7"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:50
+#: inc/custom-addons/video-popup-addon.php:74
+msgid "7 Column"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:75
+#: inc/custom-addons/slider-addon.php:102
+msgid "7 Seconds"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:27
+#: inc/custom-addons/testimonial-addon.php:30
+#: inc/custom-addons/slider-addon.php:30
+#: inc/custom-addons/recent-post-addon.php:41
+msgid "8"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:51
+#: inc/custom-addons/video-popup-addon.php:75
+msgid "8 Column"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:76
+#: inc/custom-addons/slider-addon.php:103
+msgid "8 Seconds"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:28
+#: inc/custom-addons/testimonial-addon.php:31
+#: inc/custom-addons/slider-addon.php:31
+#: inc/custom-addons/recent-post-addon.php:42
+msgid "9"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:52
+#: inc/custom-addons/video-popup-addon.php:76
+msgid "9 Column"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:77
+#: inc/custom-addons/slider-addon.php:104
+msgid "9 Seconds"
+msgstr ""
+
+#: inc/custom-addons/about-box-addon.php:10
+msgid "About Box"
+msgstr ""
+
+#: inc/custom-addons/contact-info-addon.php:20
+msgid "Add Contact Info List "
+msgstr ""
+
+#: inc/custom-addons/contact-info-addon.php:21
+msgid "Add contact info list here."
+msgstr ""
+
+#: inc/custom-addons/unordered-list-addon.php:28
+#: inc/custom-addons/text-with-image-and-list-addon.php:43
+msgid "Add List"
+msgstr ""
+
+#: inc/post-type/projects-cp.php:15
+msgid "Add New Project"
+msgstr ""
+
+#: inc/post-type/slider-cp.php:15
+msgid "Add New Slide"
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:20
+msgid "Add Progress Bar."
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:44
+msgid "Add Project Details Row"
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:44
+msgid "Add social links."
+msgstr ""
+
+#: inc/post-type/slider-cp.php:47 inc/post-type/testimonial-cp.php:48
+#: inc/custom-addons/recent-post-addon.php:8
+msgid "All Categories"
+msgstr ""
+
+#: inc/custom-addons/recent-post-addon.php:33
+msgid "All Post"
+msgstr ""
+
+#: inc/post-type/projects-cp.php:16 inc/custom-addons/project-addon.php:19
+msgid "All Projects"
+msgstr ""
+
+#: inc/post-type/slider-cp.php:16 inc/custom-addons/slider-addon.php:23
+msgid "All Slides"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:23
+msgid "All Testimonials"
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:60
+#: inc/custom-addons/text-with-background-color-addon.php:43
+msgid "Background Color"
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:51
+msgid "Bold Text"
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:52
+msgid "Border Color"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:23
+msgid "Bordered Button"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:85
+#: inc/custom-addons/choose-us-addon.php:71
+#: inc/custom-addons/about-box-addon.php:71
+msgid "Box Description"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:103
+#: inc/custom-addons/about-box-addon.php:80
+msgid "Box Link Type"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:19
+msgid "Box Style"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:94
+msgid "Box Text Color"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:76
+#: inc/custom-addons/choose-us-addon.php:62
+#: inc/custom-addons/about-box-addon.php:62
+msgid "Box Title"
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:34
+msgid "Box title"
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:7
+msgid "Brands Logos"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:9
+msgid "Button"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:77
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:103
+msgid "Button Background Color On Hover"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:90
+msgid "Button Border Color"
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:76
+msgid "Button Link"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:123
+msgid "Button Link / Url"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:115
+#: inc/custom-addons/service-box-addon.php:143
+#: inc/custom-addons/button-addon.php:69 inc/custom-addons/project-addon.php:93
+#: inc/custom-addons/cta-addon.php:32
+#: inc/custom-addons/text-with-button-addon.php:67
+msgid "Button Text"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:152
+#: inc/custom-addons/button-addon.php:116
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:125
+msgid "Button Text Color On Hover"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:17
+msgid "Button Type"
+msgstr ""
+
+#: inc/custom-addons/cta-addon.php:9
+msgid "Call To Action"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:39
+#: inc/custom-addons/slider-addon.php:39
+#: inc/custom-addons/recent-post-addon.php:50
+msgid "Category"
+msgstr ""
+
+#: inc/custom-addons/choose-us-addon.php:10
+msgid "Choose Us Box"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:82
+msgid "Click + icon for add more list / row"
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:45
+#: inc/custom-addons/unordered-list-addon.php:29
+#: inc/custom-addons/text-with-image-and-list-addon.php:44
+msgid "Click + icon for add more list."
+msgstr ""
+
+#: inc/custom-addons/contact-info-addon.php:10
+msgid "Contact Info Box"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:62
+msgid "Content Container Offset"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:40
+msgid "Content Container Width"
+msgstr ""
+
+#: inc/custom-addons/text-with-title-addon.php:36
+#: inc/custom-addons/text-with-button-addon.php:51
+#: inc/custom-addons/text-with-border-image-addon.php:55
+#: inc/custom-addons/text-with-background-color-addon.php:27
+#: inc/custom-addons/text-with-image-and-list-addon.php:34
+msgid "Content Text"
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:58
+msgid "Content Text Color"
+msgstr ""
+
+#: inc/custom-addons/counter-box-addon.php:59
+msgid "Count number"
+msgstr ""
+
+#: inc/custom-addons/counter-box-addon.php:75
+msgid "Count Text"
+msgstr ""
+
+#: inc/custom-addons/counter-box-addon.php:7
+msgid "Counter Box"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:81
+msgid "Create Row"
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:63
+#: inc/custom-addons/team-member-addon.php:66
+#: inc/custom-addons/pricing-addon.php:131
+#: inc/custom-addons/service-box-addon.php:161
+#: inc/custom-addons/video-popup-addon.php:85
+#: inc/custom-addons/button-addon.php:134
+#: inc/custom-addons/project-addon.php:102
+#: inc/custom-addons/text-with-title-addon.php:43
+#: inc/custom-addons/cta-addon.php:74
+#: inc/custom-addons/testimonial-addon.php:168
+#: inc/custom-addons/choose-us-addon.php:81
+#: inc/custom-addons/counter-box-addon.php:83
+#: inc/custom-addons/about-box-addon.php:120
+#: inc/custom-addons/project-gallery-and-details-addon.php:70
+#: inc/custom-addons/slider-addon.php:163
+#: inc/custom-addons/progressbar-addon.php:77
+#: inc/custom-addons/text-with-button-addon.php:84
+#: inc/custom-addons/recent-post-addon.php:59
+#: inc/custom-addons/unordered-list-addon.php:102
+#: inc/custom-addons/brand-slider-addon.php:114
+#: inc/custom-addons/text-with-border-image-addon.php:62
+#: inc/custom-addons/contact-info-addon.php:118
+#: inc/custom-addons/text-with-background-color-addon.php:52
+#: inc/custom-addons/text-with-image-and-list-addon.php:117
+msgid "Css Box"
+msgstr ""
+
+#: inc/custom-addons/cta-addon.php:24
+msgid "CTA Subtitle"
+msgstr ""
+
+#: inc/custom-addons/cta-addon.php:16
+msgid "CTA Title"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:98
+msgid "Currency Symbol"
+msgstr ""
+
+#: inc/custom-addons/unordered-list-addon.php:51
+#: inc/custom-addons/text-with-image-and-list-addon.php:66
+msgid "Custom Image"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:24
+msgid "Description"
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:65
+#: inc/custom-addons/team-member-addon.php:68
+#: inc/custom-addons/pricing-addon.php:133
+#: inc/custom-addons/service-box-addon.php:163
+#: inc/custom-addons/video-popup-addon.php:87
+#: inc/custom-addons/button-addon.php:136
+#: inc/custom-addons/project-addon.php:104
+#: inc/custom-addons/text-with-title-addon.php:45
+#: inc/custom-addons/cta-addon.php:76
+#: inc/custom-addons/testimonial-addon.php:170
+#: inc/custom-addons/choose-us-addon.php:83
+#: inc/custom-addons/counter-box-addon.php:85
+#: inc/custom-addons/about-box-addon.php:122
+#: inc/custom-addons/project-gallery-and-details-addon.php:72
+#: inc/custom-addons/slider-addon.php:165
+#: inc/custom-addons/progressbar-addon.php:79
+#: inc/custom-addons/text-with-button-addon.php:86
+#: inc/custom-addons/recent-post-addon.php:61
+#: inc/custom-addons/unordered-list-addon.php:104
+#: inc/custom-addons/brand-slider-addon.php:116
+#: inc/custom-addons/text-with-border-image-addon.php:64
+#: inc/custom-addons/contact-info-addon.php:120
+#: inc/custom-addons/text-with-background-color-addon.php:54
+#: inc/custom-addons/text-with-image-and-list-addon.php:119
+msgid "Design Options"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:136
+#: inc/custom-addons/brand-slider-addon.php:87
+msgid "Desktop Count"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:52
+#: inc/custom-addons/slider-addon.php:79
+#: inc/custom-addons/brand-slider-addon.php:29
+msgid "Enable Autoplay?"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:67
+msgid "Enable Filter Option?"
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:21
+msgid "Enable Gallery Image Autoplay?"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:80
+msgid "Enable Info Window?"
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:44
+msgid "Enable Loop?"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:90
+#: inc/custom-addons/slider-addon.php:117
+msgid "Enable loop?"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:115
+msgid "Enable Map Marker Animation?"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:36
+msgid "Enable Masonry?"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:61
+#: inc/custom-addons/slider-addon.php:88
+#: inc/custom-addons/brand-slider-addon.php:38
+msgid "Enable or disable autoplay."
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:29
+msgid "Enable or disable gallery image autoplay."
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:87
+msgid "Enable or disable info window."
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:53
+msgid "Enable or disable loop."
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:123
+msgid "Enable or disable map marker animation."
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:44
+msgid "Enable or disable masonry."
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:117
+#: inc/custom-addons/slider-addon.php:144
+msgid "Enable or disable navigation arrows."
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:131
+#: inc/custom-addons/slider-addon.php:158
+msgid "Enable or disable navigation dots."
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:75
+msgid "Enable or disable project filter option."
+msgstr ""
+
+#: inc/custom-addons/slider-addon.php:74
+msgid "Enable or disable slider content animation."
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:103
+#: inc/custom-addons/slider-addon.php:130
+msgid "Enable or disable slider loop."
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:80
+msgid "Enable Pagination?"
+msgstr ""
+
+#: inc/custom-addons/slider-addon.php:65
+msgid "Enable Slider Content Animation?"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:118
+msgid "Enter button text here."
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:59
+msgid "Enter button URL here."
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:126
+msgid "Enter button url here."
+msgstr ""
+
+#: inc/custom-addons/cta-addon.php:65
+msgid "Enter CTA button external link here."
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:102
+msgid "Enter currency symbol here. Example $, €, ৳ etc. "
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:38
+msgid "Enter location latitude"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:47
+msgid "Enter location longitude"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:110
+msgid "Enter price here."
+msgstr ""
+
+#: inc/custom-addons/counter-box-addon.php:70
+msgid "Enter units (Example: %, +) here"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:57
+msgid "Enter URL"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:109
+#: inc/custom-addons/button-addon.php:37 inc/custom-addons/cta-addon.php:45
+#: inc/custom-addons/about-box-addon.php:86
+msgid "External link"
+msgstr ""
+
+#: inc/custom-addons/slider-addon.php:55
+msgid "FadeIn FadeOut"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:22
+msgid "Fill Button"
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:68
+msgid "Fill Color"
+msgstr ""
+
+#: inc/custom-addons/vc-flaticon/vc-flaticon.php:8
+msgid "Finance"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:39
+#: inc/custom-addons/service-box-addon.php:36
+#: inc/custom-addons/choose-us-addon.php:22
+#: inc/custom-addons/counter-box-addon.php:19
+#: inc/custom-addons/about-box-addon.php:22
+#: inc/custom-addons/unordered-list-addon.php:49
+#: inc/custom-addons/contact-info-addon.php:31
+#: inc/custom-addons/text-with-image-and-list-addon.php:64
+msgid "FlatIcon"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:48
+#: inc/custom-addons/service-box-addon.php:45
+#: inc/custom-addons/choose-us-addon.php:31
+#: inc/custom-addons/counter-box-addon.php:28
+#: inc/custom-addons/about-box-addon.php:31
+#: inc/custom-addons/unordered-list-addon.php:59
+#: inc/custom-addons/contact-info-addon.php:40
+#: inc/custom-addons/text-with-image-and-list-addon.php:74
+msgid "Flaticon"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:40
+#: inc/custom-addons/service-box-addon.php:37
+#: inc/custom-addons/choose-us-addon.php:23
+#: inc/custom-addons/counter-box-addon.php:20
+#: inc/custom-addons/about-box-addon.php:23
+#: inc/custom-addons/unordered-list-addon.php:50
+#: inc/custom-addons/contact-info-addon.php:32
+#: inc/custom-addons/text-with-image-and-list-addon.php:65
+msgid "FontAwesome"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:64
+#: inc/custom-addons/service-box-addon.php:61
+#: inc/custom-addons/choose-us-addon.php:47
+#: inc/custom-addons/counter-box-addon.php:44
+#: inc/custom-addons/about-box-addon.php:47
+#: inc/custom-addons/unordered-list-addon.php:75
+#: inc/custom-addons/contact-info-addon.php:56
+#: inc/custom-addons/text-with-image-and-list-addon.php:90
+msgid "FontAwesome Icon"
+msgstr ""
+
+#: inc/shortcodes/cta-shortcode.php:10 inc/custom-addons/cta-addon.php:35
+msgid "Get Started"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:9
+msgid "Google Map"
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:21
+msgid "Height"
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:91
+msgid "How many logos show on desktop in one time"
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:109
+msgid "How many logos show on mobile in one time"
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:100
+msgid "How many logos show on tablet in one time"
+msgstr ""
+
+#: inc/custom-addons/recent-post-addon.php:45
+msgid "How many post you want to show?"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://tf.themedraft.com/wp/xzopro"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://themedraft.com/"
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:49
+msgid "Icon"
+msgstr ""
+
+#: inc/custom-addons/contact-info-addon.php:100
+msgid "Icon and Heading Color"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:36
+#: inc/custom-addons/service-box-addon.php:33
+#: inc/custom-addons/choose-us-addon.php:19
+#: inc/custom-addons/counter-box-addon.php:16
+#: inc/custom-addons/about-box-addon.php:19
+#: inc/custom-addons/unordered-list-addon.php:46
+#: inc/custom-addons/contact-info-addon.php:28
+#: inc/custom-addons/text-with-image-and-list-addon.php:61
+msgid "Icon Type"
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:57
+msgid "Icon URL"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:88
+msgid ""
+"If total projects number is greater than project count and you want to show "
+"other projects in next page select yes."
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:28
+msgid ""
+"If you set more than one location first location considered as map center"
+msgstr ""
+
+#: inc/custom-addons/text-with-border-image-addon.php:38
+msgid "Image Border Color"
+msgstr ""
+
+#: inc/custom-addons/text-with-border-image-addon.php:25
+msgid "Image Position"
+msgstr ""
+
+#: inc/custom-addons/contact-info-addon.php:91
+msgid "Info Box Background Color"
+msgstr ""
+
+#: inc/custom-addons/contact-info-addon.php:79
+msgid "Info Description"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:52
+msgid "Info Text"
+msgstr ""
+
+#: inc/custom-addons/contact-info-addon.php:109
+msgid "Info Text Color"
+msgstr ""
+
+#: inc/custom-addons/contact-info-addon.php:71
+msgid "Info Title"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:34
+msgid "Latitude"
+msgstr ""
+
+#: inc/custom-addons/text-with-border-image-addon.php:30
+msgid "Left"
+msgstr ""
+
+#: inc/custom-addons/cta-addon.php:63
+msgid "Link"
+msgstr ""
+
+#: inc/custom-addons/cta-addon.php:40
+msgid "Link To"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:31
+msgid "Link Type"
+msgstr ""
+
+#: inc/custom-addons/unordered-list-addon.php:35
+#: inc/custom-addons/text-with-image-and-list-addon.php:50
+msgid "List Text"
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:24
+msgid "Logo box height in pixel"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:43
+msgid "Longitude"
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:33
+msgid "Main Title"
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:41
+msgid "Main Title Color"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:18
+msgid "Map API Key"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:62
+msgid "Map Height"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:27
+msgid "Map Location Details"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:108
+msgid "Map Marker Image"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:71
+msgid "Map Zoom"
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:33
+msgid "Member Designation"
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:18
+msgid "Member Image"
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:25
+msgid "Member Name"
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:105
+msgid "Mobile Count"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:42
+#: inc/custom-addons/project-addon.php:73
+#: inc/custom-addons/project-addon.php:86
+#: inc/custom-addons/testimonial-addon.php:58
+#: inc/custom-addons/testimonial-addon.php:96
+#: inc/custom-addons/testimonial-addon.php:114
+#: inc/custom-addons/testimonial-addon.php:128
+#: inc/custom-addons/slider-addon.php:71 inc/custom-addons/slider-addon.php:85
+#: inc/custom-addons/slider-addon.php:123
+#: inc/custom-addons/slider-addon.php:141
+#: inc/custom-addons/slider-addon.php:155
+msgid "No"
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:59
+msgid "Normal Text"
+msgstr ""
+
+#: inc/shortcodes/text-with-button-shortcode.php:13
+msgid "Our History"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:108
+#: inc/custom-addons/button-addon.php:36 inc/custom-addons/cta-addon.php:44
+#: inc/custom-addons/about-box-addon.php:85
+msgid "Page"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:21
+msgid "Paste your google API key here."
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:9
+msgid "Popup Video"
+msgstr ""
+
+#: inc/custom-addons/recent-post-addon.php:28
+msgid "Post count"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:107
+msgid "Price"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:10
+msgid "Pricing Table"
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:9
+msgid "Progress Bar"
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:26
+msgid "Progress Bar Title"
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:34
+msgid "Progress Percentage"
+msgstr ""
+
+#: inc/post-type/projects-cp.php:14
+msgid "Project"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:49
+msgid "Project Column Width"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:14
+msgid "Project Count"
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:7
+msgid "Project Gallery And Details"
+msgstr ""
+
+#: inc/post-type/projects-cp.php:13 inc/custom-addons/project-addon.php:7
+msgid "Projects"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:146
+#: inc/custom-addons/project-addon.php:96
+msgid "Read More"
+msgstr ""
+
+#: inc/custom-addons/recent-post-addon.php:21
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/custom-addons/text-with-border-image-addon.php:31
+msgid "Right"
+msgstr ""
+
+#: inc/custom-addons/slider-addon.php:56
+msgid "Right to Left"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:88
+msgid "Row Text"
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:10
+#: inc/custom-addons/section-title-addon.php:18
+msgid "Section Title"
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:27
+msgid "Section Title Description"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:122
+#: inc/custom-addons/button-addon.php:48 inc/custom-addons/cta-addon.php:55
+#: inc/custom-addons/about-box-addon.php:99
+msgid "Select a page."
+msgstr ""
+
+#: inc/custom-addons/text-with-background-color-addon.php:47
+msgid "Select background color."
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:93
+msgid "Select button border color."
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:106
+msgid "Select button fill color on hover."
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:80
+msgid "Select button fill color."
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:39
+msgid "Select button link type."
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:156
+msgid "Select button text color"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:128
+msgid "Select button text color on hover."
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:119
+msgid "Select button text color."
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:26
+msgid "Select button type."
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:80
+msgid "Select content container offset"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:57
+msgid "Select content container width"
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:61
+msgid "Select content text color."
+msgstr ""
+
+#: inc/custom-addons/counter-box-addon.php:23
+msgid "Select counter box icon type"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:31
+msgid "Select how many project you want to show?"
+msgstr ""
+
+#: inc/custom-addons/slider-addon.php:34
+msgid "Select how many slide item you want to show."
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:147
+msgid "Select how many testimonial item you want to show on desktop."
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:163
+msgid "Select how many testimonial item you want to show on tablet."
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:34
+msgid "Select how many testimonial item you want to show."
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:52
+msgid "Select Icon"
+msgstr ""
+
+#: inc/custom-addons/contact-info-addon.php:95
+#: inc/custom-addons/contact-info-addon.php:104
+#: inc/custom-addons/contact-info-addon.php:113
+msgid "Select icon and info heading color."
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:43
+#: inc/custom-addons/service-box-addon.php:40
+#: inc/custom-addons/choose-us-addon.php:26
+#: inc/custom-addons/about-box-addon.php:26
+#: inc/custom-addons/unordered-list-addon.php:54
+#: inc/custom-addons/text-with-image-and-list-addon.php:69
+msgid "Select Icon type"
+msgstr ""
+
+#: inc/custom-addons/text-with-border-image-addon.php:41
+msgid "Select image border color."
+msgstr ""
+
+#: inc/custom-addons/text-with-border-image-addon.php:33
+msgid "Select image position."
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:112
+#: inc/custom-addons/about-box-addon.php:89
+msgid "Select link type."
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:44
+msgid "Select main title color."
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:12
+msgid "Select map location"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:118
+#: inc/custom-addons/button-addon.php:44 inc/custom-addons/cta-addon.php:51
+#: inc/custom-addons/about-box-addon.php:95
+msgid "Select Page"
+msgstr ""
+
+#: inc/custom-addons/cta-addon.php:47
+msgid "Select page or external link for cta button."
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:62
+msgid "Select progress bar background color."
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:54
+msgid "Select progress bar border color."
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:46
+msgid "Select progress bar text color."
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:71
+msgid "Select progress fill color."
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:40
+msgid "Select section title heading color."
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:58
+msgid "Select section title shape color."
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:49
+msgid "Select section title text color."
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:27
+msgid "Select service box style"
+msgstr ""
+
+#: inc/custom-addons/slider-addon.php:60
+msgid "Select slide effect."
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:85
+#: inc/custom-addons/slider-addon.php:112
+msgid "Select slide interval time."
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:78
+msgid "Select slide time."
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:27
+msgid "Select small title color."
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:98
+msgid "Select text color"
+msgstr ""
+
+#: inc/custom-addons/text-with-background-color-addon.php:38
+msgid "Select text color."
+msgstr ""
+
+#: inc/custom-addons/vc-flaticon/vc-flaticon.php:9
+msgid "Seo and Marketing"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:10
+msgid "Service Box"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:22
+msgid "Service Style 1"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:23
+msgid "Service Style 2"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:24
+msgid "Service Style 3"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:66
+msgid "Set map height in pixel."
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:75
+msgid "Set map zoom level."
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:58
+msgid "Set project item column width."
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:108
+#: inc/custom-addons/slider-addon.php:135
+msgid "Show Navigation Arrows On Hover?"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:122
+#: inc/custom-addons/slider-addon.php:149
+msgid "Show Navigation Dots."
+msgstr ""
+
+#: inc/custom-addons/recent-post-addon.php:54
+msgid "Show specific category post."
+msgstr ""
+
+#: inc/custom-addons/slider-addon.php:43
+msgid "Show specific category slides."
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:43
+msgid "Show specific category testimonials."
+msgstr ""
+
+#: inc/post-type/slider-cp.php:14
+msgid "Slide"
+msgstr ""
+
+#: inc/custom-addons/slider-addon.php:50
+msgid "Slide Effect"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:66
+#: inc/custom-addons/slider-addon.php:93
+msgid "Slide Interval"
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:60
+msgid "Slide Time"
+msgstr ""
+
+#: inc/custom-addons/slider-addon.php:10
+msgid "Slider"
+msgstr ""
+
+#: inc/custom-addons/slider-addon.php:18
+msgid "Slider Count"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:60
+#: inc/custom-addons/testimonial-addon.php:84
+#: inc/custom-addons/testimonial-addon.php:98
+#: inc/custom-addons/testimonial-addon.php:116
+#: inc/custom-addons/testimonial-addon.php:130
+#: inc/custom-addons/testimonial-addon.php:146
+#: inc/custom-addons/testimonial-addon.php:162
+#: inc/custom-addons/slider-addon.php:59 inc/custom-addons/slider-addon.php:73
+#: inc/custom-addons/slider-addon.php:87 inc/custom-addons/slider-addon.php:111
+#: inc/custom-addons/slider-addon.php:125
+#: inc/custom-addons/slider-addon.php:143
+#: inc/custom-addons/slider-addon.php:157
+#: inc/custom-addons/brand-slider-addon.php:37
+#: inc/custom-addons/brand-slider-addon.php:52
+#: inc/custom-addons/brand-slider-addon.php:76
+msgid "Slider Options"
+msgstr ""
+
+#: inc/post-type/slider-cp.php:13
+msgid "Slides"
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:16
+msgid "Small Title"
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:24
+msgid "Small Title Color"
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:43
+#: inc/custom-addons/progressbar-addon.php:19
+msgid "Social Icons"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:27
+msgid "Table Tag"
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:18
+msgid "Table Title"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:152
+#: inc/custom-addons/brand-slider-addon.php:96
+msgid "Tablet Count"
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:10
+msgid "Team Member"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:18
+msgid "Testimonial Count"
+msgstr ""
+
+#: inc/custom-addons/testimonial-addon.php:10
+msgid "Testimonial Slider"
+msgstr ""
+
+#: inc/custom-addons/button-addon.php:24
+msgid "Text Button"
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:44
+#: inc/custom-addons/text-with-background-color-addon.php:34
+msgid "Text Color"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:54
+msgid ""
+"Text show on info window if info window is enable. Please use <br> tag for "
+"line breake."
+msgstr ""
+
+#: inc/custom-addons/text-with-background-color-addon.php:10
+msgid "Text With Background"
+msgstr ""
+
+#: inc/custom-addons/text-with-border-image-addon.php:10
+msgid "Text With Border Image"
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:9
+msgid "Text With Button"
+msgstr ""
+
+#: inc/custom-addons/text-with-image-and-list-addon.php:10
+msgid "Text With Image And List"
+msgstr ""
+
+#: inc/custom-addons/text-with-title-addon.php:10
+msgid "Text With Title"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeDraft"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin is required for Xzopro wordpress theme"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:16
+#: inc/custom-addons/text-with-title-addon.php:18
+#: inc/custom-addons/unordered-list-addon.php:18
+#: inc/custom-addons/text-with-border-image-addon.php:46
+#: inc/custom-addons/text-with-background-color-addon.php:18
+#: inc/custom-addons/text-with-image-and-list-addon.php:25
+msgid "Title"
+msgstr ""
+
+#: inc/custom-addons/text-with-title-addon.php:26
+msgid "Title Font Size"
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:36
+msgid "Title Heading Color"
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:54
+msgid "Title Shape Color"
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:45
+msgid "Title Text Color"
+msgstr ""
+
+#: inc/custom-addons/about-box-addon.php:75
+msgid "Type about box description here."
+msgstr ""
+
+#: inc/custom-addons/about-box-addon.php:66
+msgid "Type about box title here."
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:54
+msgid "Type bold text here."
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:71
+msgid "Type button text here"
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:147
+#: inc/custom-addons/button-addon.php:72 inc/custom-addons/project-addon.php:97
+msgid "Type button text here."
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:79
+msgid "Type button URL here"
+msgstr ""
+
+#: inc/custom-addons/choose-us-addon.php:75
+msgid "Type choose us box description here."
+msgstr ""
+
+#: inc/custom-addons/choose-us-addon.php:66
+msgid "Type choose us box title here."
+msgstr ""
+
+#: inc/custom-addons/text-with-title-addon.php:38
+#: inc/custom-addons/text-with-button-addon.php:53
+#: inc/custom-addons/text-with-border-image-addon.php:57
+#: inc/custom-addons/text-with-background-color-addon.php:29
+#: inc/custom-addons/text-with-image-and-list-addon.php:36
+msgid "Type content text here"
+msgstr ""
+
+#: inc/custom-addons/counter-box-addon.php:62
+msgid "Type count number here"
+msgstr ""
+
+#: inc/custom-addons/counter-box-addon.php:78
+msgid "Type count text here"
+msgstr ""
+
+#: inc/custom-addons/cta-addon.php:36
+msgid "Type CTA button text here.."
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:37
+msgid "Type detail box title."
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:134
+#: inc/custom-addons/about-box-addon.php:111
+msgid "Type external link here."
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:59
+msgid "Type icon url here."
+msgstr ""
+
+#: inc/custom-addons/contact-info-addon.php:81
+msgid "Type info description here."
+msgstr ""
+
+#: inc/custom-addons/unordered-list-addon.php:38
+#: inc/custom-addons/text-with-image-and-list-addon.php:53
+msgid "Type list text here."
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:36
+msgid "Type main title here."
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:36
+msgid "Type member designation here."
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:28
+msgid "Type member name here."
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:62
+msgid "Type normal text here."
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:29
+msgid "Type progress bar title"
+msgstr ""
+
+#: inc/custom-addons/progressbar-addon.php:37
+#, php-format
+msgid "Type progress percentage without % symbol. example 80"
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:31
+msgid "Type section title description here."
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:22
+#: inc/custom-addons/unordered-list-addon.php:21
+#: inc/custom-addons/text-with-border-image-addon.php:49
+#: inc/custom-addons/text-with-image-and-list-addon.php:28
+msgid "Type section title here."
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:89
+msgid "Type service box description here."
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:80
+msgid "Type service box title here."
+msgstr ""
+
+#: inc/custom-addons/text-with-button-addon.php:19
+msgid ""
+"Type small title here. You can leave it empty if you dont want to use it."
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:91
+msgid "Type table row text here."
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:30
+msgid "Type table tag text here. example : Popular, Basic, Exclusive etc."
+msgstr ""
+
+#: inc/custom-addons/pricing-addon.php:22
+msgid "Type table title here."
+msgstr ""
+
+#: inc/custom-addons/text-with-title-addon.php:30
+msgid "Type title font size in pixel. example : 36"
+msgstr ""
+
+#: inc/custom-addons/contact-info-addon.php:74
+msgid "Type title here link here."
+msgstr ""
+
+#: inc/custom-addons/text-with-title-addon.php:21
+#: inc/custom-addons/text-with-background-color-addon.php:21
+msgid "Type title here."
+msgstr ""
+
+#: inc/custom-addons/service-box-addon.php:131
+#: inc/custom-addons/about-box-addon.php:108
+msgid "Type URL"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:27
+msgid "Type video description"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:19
+msgid "Type video title"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:35
+msgid "Type video url here"
+msgstr ""
+
+#: inc/custom-addons/cta-addon.php:27
+msgid "Type your CTA subtitle"
+msgstr ""
+
+#: inc/custom-addons/cta-addon.php:19
+msgid "Type your CTA title"
+msgstr ""
+
+#: inc/custom-addons/counter-box-addon.php:67
+msgid "Units"
+msgstr ""
+
+#: inc/custom-addons/unordered-list-addon.php:10
+msgid "Unordered List"
+msgstr ""
+
+#: inc/custom-addons/text-with-border-image-addon.php:20
+msgid "Upload border image"
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:16
+msgid "Upload gallery images"
+msgstr ""
+
+#: inc/custom-addons/text-with-border-image-addon.php:18
+#: inc/custom-addons/text-with-image-and-list-addon.php:18
+msgid "Upload Image"
+msgstr ""
+
+#: inc/custom-addons/text-with-image-and-list-addon.php:20
+msgid "Upload image"
+msgstr ""
+
+#: inc/custom-addons/unordered-list-addon.php:90
+#: inc/custom-addons/text-with-image-and-list-addon.php:105
+msgid "Upload Image Icon"
+msgstr ""
+
+#: inc/custom-addons/unordered-list-addon.php:92
+#: inc/custom-addons/text-with-image-and-list-addon.php:107
+msgid "Upload image icon"
+msgstr ""
+
+#: inc/custom-addons/project-gallery-and-details-addon.php:14
+msgid "Upload Images"
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:16
+msgid "Upload logo images"
+msgstr ""
+
+#: inc/custom-addons/brand-slider-addon.php:14
+msgid "Upload Logos"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:110
+msgid "Upload map marker image"
+msgstr ""
+
+#: inc/custom-addons/team-member-addon.php:20
+msgid "Upload member image"
+msgstr ""
+
+#: inc/custom-addons/video-popup-addon.php:32
+msgid "Video Url"
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:103
+msgid "Visable info window."
+msgstr ""
+
+#: inc/custom-addons/google-map-addon.php:92
+msgid "Visible Info Window"
+msgstr ""
+
+#: inc/custom-addons/section-title-addon.php:12
+#: inc/custom-addons/team-member-addon.php:12
+#: inc/custom-addons/pricing-addon.php:12
+#: inc/custom-addons/google-map-addon.php:11
+#: inc/custom-addons/service-box-addon.php:12
+#: inc/custom-addons/project-addon.php:9
+#: inc/custom-addons/text-with-title-addon.php:12
+#: inc/custom-addons/testimonial-addon.php:12
+#: inc/custom-addons/choose-us-addon.php:12
+#: inc/custom-addons/counter-box-addon.php:9
+#: inc/custom-addons/about-box-addon.php:12
+#: inc/custom-addons/project-gallery-and-details-addon.php:9
+#: inc/custom-addons/slider-addon.php:12
+#: inc/custom-addons/recent-post-addon.php:23
+#: inc/custom-addons/unordered-list-addon.php:12
+#: inc/custom-addons/brand-slider-addon.php:9
+#: inc/custom-addons/text-with-border-image-addon.php:12
+#: inc/custom-addons/contact-info-addon.php:12
+#: inc/custom-addons/text-with-background-color-addon.php:12
+#: inc/custom-addons/text-with-image-and-list-addon.php:12
+msgid "Xzopro"
+msgstr ""
+
+#: inc/custom-addons/vc-flaticon/vc-flaticon.php:7
+msgid "Xzopro Icons"
+msgstr ""
+
+#. Name of the plugin
+msgid "Xzopro Toolkit"
+msgstr ""
+
+#: inc/custom-addons/project-addon.php:41
+#: inc/custom-addons/project-addon.php:72
+#: inc/custom-addons/project-addon.php:85
+#: inc/custom-addons/testimonial-addon.php:57
+#: inc/custom-addons/testimonial-addon.php:95
+#: inc/custom-addons/testimonial-addon.php:113
+#: inc/custom-addons/testimonial-addon.php:127
+#: inc/custom-addons/slider-addon.php:70 inc/custom-addons/slider-addon.php:84
+#: inc/custom-addons/slider-addon.php:122
+#: inc/custom-addons/slider-addon.php:140
+#: inc/custom-addons/slider-addon.php:154
+msgid "Yes"
+msgstr ""

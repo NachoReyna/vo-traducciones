@@ -1,0 +1,1359 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Xzopro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-09 22:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.1"
+
+#. 1: list of categories.
+#: inc/template-tags.php:85
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:82
+msgid ", "
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:158
+msgid "0 column"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:136
+#: inc/metabox-and-options/slide-metabox.php:159
+msgid "1 column"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:145
+#: inc/metabox-and-options/slide-metabox.php:168
+msgid "10 column"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:146
+#: inc/metabox-and-options/slide-metabox.php:169
+msgid "11 column"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:147
+msgid "12 column"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:137
+#: inc/metabox-and-options/slide-metabox.php:160
+msgid "2 column"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:138
+#: inc/metabox-and-options/slide-metabox.php:161
+msgid "3 column"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:139
+#: inc/metabox-and-options/slide-metabox.php:162
+msgid "4 column"
+msgstr ""
+
+#: 404.php:60
+msgid "404"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:140
+#: inc/metabox-and-options/slide-metabox.php:163
+msgid "5 column"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:141
+#: inc/metabox-and-options/slide-metabox.php:164
+msgid "6 column"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:142
+#: inc/metabox-and-options/slide-metabox.php:165
+msgid "7 column"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:143
+#: inc/metabox-and-options/slide-metabox.php:166
+msgid "8 column"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:144
+#: inc/metabox-and-options/slide-metabox.php:167
+msgid "9 column"
+msgstr ""
+
+#: functions.php:107
+msgid "Add footer widgets here."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:276
+msgid "Add header 1 top left text"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:378
+msgid "Add header 1 top right text"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:327
+msgid "Add header 1 top social icons"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:474
+msgid "Add header 2 social icons"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:421
+msgid "Add header 2 top left text"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:48
+#: inc/metabox-and-options/slide-metabox.php:49
+msgid "Add New button"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:326
+#: inc/metabox-and-options/theme-options.php:328
+#: inc/metabox-and-options/theme-options.php:473
+#: inc/metabox-and-options/theme-options.php:475
+msgid "Add New Icon"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:275
+#: inc/metabox-and-options/theme-options.php:277
+#: inc/metabox-and-options/theme-options.php:377
+#: inc/metabox-and-options/theme-options.php:379
+#: inc/metabox-and-options/theme-options.php:420
+#: inc/metabox-and-options/theme-options.php:422
+msgid "Add New Text"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:47
+msgid "Add slide buttons here."
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:46
+msgid "Add Slider Buttons"
+msgstr ""
+
+#: functions.php:97
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:201
+msgid ""
+"After import demo, just set static homepage from settings > reading, Set "
+"menus. You will be done! :-)"
+msgstr ""
+
+#: inc/xzopro-comment-template.php:60
+msgid "All fields marked with an asterisk (*) are required"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:791
+msgid "Archive Banner Background Image"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:763
+msgid "Archive Page"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:770
+msgid "Archive Page Layout"
+msgstr ""
+
+#: inc/metabox-and-options/testimonial-metabox.php:25
+msgid "Author Designation."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:955
+msgid "Background"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:266
+#: inc/metabox-and-options/theme-options.php:883
+msgid "Background Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:633
+msgid "Banner Background Image"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:626
+msgid "Banner Options"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:73
+msgid "Banner Settings"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:640
+msgid "Banner Text Align"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:109
+msgid "Banner Text Align."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:682
+msgid "Blog Banner Background Image"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:698
+msgid "Blog Banner Text Align"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:690
+msgid "Blog Banner Title?"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:654
+msgid "Blog Page"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:661
+msgid "Blog Page Layout"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:692
+msgid "Blog page title"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:69
+msgid "Body Font"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:69
+msgid "Bordered Button"
+msgstr ""
+
+#: inc/required-plugins.php:26
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:76
+msgid "Button link to"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:55
+msgid "Button Text"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:57
+msgid "Button text"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:64
+msgid "Button Type"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:115
+#: inc/metabox-and-options/theme-options.php:643
+#: inc/metabox-and-options/theme-options.php:701
+#: inc/metabox-and-options/slide-metabox.php:181
+msgid "Center"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:28
+msgid "Change theme primary color from here."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:36
+msgid "Change theme secondary color from here."
+msgstr ""
+
+#: inc/required-plugins.php:48
+msgid "Codestar Framework"
+msgstr ""
+
+#: comments.php:34
+msgid "Comment"
+msgstr ""
+
+#: comments.php:36
+msgid "Comments"
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/required-plugins.php:12
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:154
+msgid "Content Wrapper Offset"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:132
+msgid "Content Wrapper Width"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:57
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:947
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:22
+#: inc/metabox-and-options/page-metabox.php:53
+#: inc/metabox-and-options/page-metabox.php:113
+msgid "Default"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:588
+msgid "Dropdown Menu Background Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:604
+msgid "Dropdown Menu Item Hover Background"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:596
+msgid "Dropdown Menu Text Color"
+msgstr ""
+
+#: inc/xzopro-comment-template.php:20
+msgid "Email"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:784
+msgid "Enable Archive Banner?"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:84
+msgid "Enable Banner?"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:674
+msgid "Enable Blog Banner?"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:229
+msgid "Enable Header Button?"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:203
+msgid "Enable Header Search?"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:752
+msgid "Enable Next - Previous Link On Single Post?"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:785
+msgid "Enable or disable archive banner."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:557
+msgid ""
+"Enable or disable fixed menu. If On, menu fixed on top while page scroll."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:230
+msgid "Enable or disable header button."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:204
+msgid "Enable or disable header search button."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:44
+msgid "Enable or disable site preloader."
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:203
+msgid "Enable Overlay?"
+msgstr ""
+
+#: 404.php:37
+msgid "Error 404"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:848
+msgid "Error 404 Banner Background Image"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:828
+msgid "Error 404 Page"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:835
+msgid "Error 404 Page Layout"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:81
+msgid "External link"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:68
+msgid "Fill Button"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:907
+msgid "First Widget Width"
+msgstr ""
+
+#: inc/metabox-and-options/metabox-and-options.php:60
+msgid "FlatIcon"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:939
+msgid "Footer Bottom"
+msgstr ""
+
+#: functions.php:36
+msgid "Footer bottom menu"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:861
+msgid "Footer Options"
+msgstr ""
+
+#: functions.php:105
+msgid "Footer Widget"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:867
+msgid "Footer Widget Area"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:931
+msgid "Fourth Widget Width"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:55
+#: inc/metabox-and-options/theme-options.php:664
+#: inc/metabox-and-options/theme-options.php:724
+#: inc/metabox-and-options/theme-options.php:773
+#: inc/metabox-and-options/theme-options.php:810
+#: inc/metabox-and-options/theme-options.php:838
+msgid "Full Width"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:19
+msgid "General Settings"
+msgstr ""
+
+#: template-parts/header/header-button.php:7
+#: inc/metabox-and-options/theme-options.php:239
+msgid "Get a Quote"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:147
+msgid "Headding Five ( h5 ) Font"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:134
+msgid "Headding Four ( h4 ) Font"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:95
+msgid "Headding One ( h1 ) Font"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:160
+msgid "Headding Six ( h6 ) Font"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:121
+msgid "Headding Three ( h3 ) Font"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:108
+msgid "Headding Two ( h2 ) Font"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:211
+msgid "Header 1 Search Form Background Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:220
+msgid "Header 2 Search Form Background Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:237
+msgid "Header Button Text"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:246
+msgid "Header Button URL"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:182
+msgid "Header General Settings"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:23
+msgid "Header One"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:176
+msgid "Header Options"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:258
+msgid "Header Top"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:24
+msgid "Header Two"
+msgstr ""
+
+#. URI of the theme
+msgid "http://tf.themedraft.com/wp/xzopro"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themedraft.com/"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:675
+msgid "If you want to display banner area on blog page, select ON."
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:85
+msgid "If you want to display banner area, select ON."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:737
+msgid "If you want to show Category, select On"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:753
+msgid ""
+"If you want to show next - previous post links on single post, select On"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:745
+msgid "If you want to show tags select On"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:103
+msgid ""
+"If you want to use custom title write title here.If you don't, leave it "
+"blank."
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:204
+msgid "If you want to use overlay, select on."
+msgstr ""
+
+#: 404.php:65
+msgid "It looks like nothing was found at this location. Try another search."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:51
+#: inc/metabox-and-options/theme-options.php:722
+msgid "Layout"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:620
+msgid "Layout & Options"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:40
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/xzopro-comment-template.php:61
+msgid "Leave A Comment"
+msgstr ""
+
+#: template-parts/content.php:73
+msgid "Leer más"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:114
+#: inc/metabox-and-options/theme-options.php:642
+#: inc/metabox-and-options/theme-options.php:700
+#: inc/metabox-and-options/slide-metabox.php:180
+msgid "Left"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:54
+#: inc/metabox-and-options/theme-options.php:663
+#: inc/metabox-and-options/theme-options.php:725
+#: inc/metabox-and-options/theme-options.php:772
+#: inc/metabox-and-options/theme-options.php:809
+#: inc/metabox-and-options/theme-options.php:837
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:347
+#: inc/metabox-and-options/theme-options.php:494
+#: inc/metabox-and-options/slide-metabox.php:95
+msgid "Link"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:102
+msgid "Links open in new window?"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:524
+msgid "Logos"
+msgstr ""
+
+#: inc/required-plugins.php:33
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:548
+msgid "Menu"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:82
+msgid "Menu / Navigation Font"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:564
+msgid "Menu Background Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:556
+msgid "Menu Fixed On Top?"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:572
+msgid "Menu Text Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:580
+msgid "Menu Text Hover Color"
+msgstr ""
+
+#: inc/xzopro-comment-template.php:11
+msgid "Name"
+msgstr ""
+
+#: single.php:113
+msgid "Next Post"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:106
+msgid "No"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/required-plugins.php:19
+msgid "One Click Demo Import"
+msgstr ""
+
+#: index.php:52
+msgid "Our Blog"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:211
+msgid "Overlay Color"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:220
+msgid "Overlay Opacity"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:80
+msgid "Page"
+msgstr ""
+
+#. Name of the template
+msgid "page documento gracias"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:9
+msgid "Page Header"
+msgstr ""
+
+#: 404.php:61
+msgid "Page Not found"
+msgstr ""
+
+#. Name of the template
+msgid "page presupuestador"
+msgstr ""
+
+#: template-parts/content.php:68 template-parts/content-page.php:19
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid " %s"
+msgstr ""
+
+#: inc/xzopro-comment-template.php:57
+msgid "Post Comment"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:43
+msgid "Preloader"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:51
+msgid "Preloader Background Color"
+msgstr ""
+
+#: single.php:112
+msgid "Previous Post"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:27
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:35
+msgid "Primary Menu"
+msgstr ""
+
+#: template-parts/content-search.php:24
+msgctxt "Leer Más"
+msgid "Read More"
+msgstr "Leer más"
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: comments.php:50
+msgid "Reply"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:116
+#: inc/metabox-and-options/theme-options.php:644
+#: inc/metabox-and-options/theme-options.php:702
+#: inc/metabox-and-options/slide-metabox.php:182
+msgid "Right"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:56
+#: inc/metabox-and-options/theme-options.php:665
+#: inc/metabox-and-options/theme-options.php:726
+#: inc/metabox-and-options/theme-options.php:774
+#: inc/metabox-and-options/theme-options.php:811
+#: inc/metabox-and-options/theme-options.php:839
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:820
+msgid "Search Banner Background Image"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:800
+msgid "Search Page"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:807
+msgid "Search Page Layout"
+msgstr ""
+
+#. %s: search query.
+#: search.php:36
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:915
+msgid "Second Widget Width"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:35
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:291
+#: inc/metabox-and-options/theme-options.php:399
+#: inc/metabox-and-options/theme-options.php:436
+msgid "Select an icon"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:777
+msgid "Select archive layout."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:647
+msgid ""
+"Select banner default text align. You can override this settings in "
+"individual page / post."
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:110
+msgid "Select banner text align"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:683
+msgid "Select blog banner default image."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:705
+msgid "Select blog banner text align."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:668
+msgid "Select blog layout."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:70
+msgid "Select body font property."
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:77
+msgid "Select button link source."
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:103
+msgid "Select button link target."
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:89
+msgid "Select button link to page."
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:65
+msgid "Select button type."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:634
+msgid ""
+"Select default banner image for all page / post. You can override this "
+"settings in individual page / post."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:589
+msgid "Select dropdown menu background color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:605
+msgid "Select dropdown menu item background color on hover."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:597
+msgid "Select dropdown menu text color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:842
+msgid "Select error 404 page layout."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:956
+msgid "Select footer bottom background color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:964
+msgid "Select footer bottom text color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:972
+msgid "Select footer bottom text color. Only work if text have any link."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:884
+msgid "Select footer widget area background color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:892
+msgid "Select footer widget area text color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:900
+msgid ""
+"Select footer widget area text hover color. Only work if text have any link."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:154
+msgid "Select headding five ( h5 ) font property."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:141
+msgid "Select headding four ( h4 ) font property."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:102
+msgid "Select headding one ( h1 ) font property."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:167
+msgid "Select headding six ( h6 ) font property."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:128
+msgid "Select headding three ( h3 ) font property."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:115
+msgid "Select headding two ( h2 ) font property."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:212
+msgid "Select header 1 search form background color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:267
+msgid "Select header 1 top background color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:360
+msgid "Select header 1 top icon color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:369
+msgid "Select header 1 top icon hover color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:309
+msgid "Select header 1 top text color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:318
+msgid ""
+"Select header 1 top text hover color. This color only work if text have any "
+"link."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:221
+msgid "Select header 2 search form background color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:412
+msgid "Select header 2 top background color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:507
+msgid "Select header 2 top icon color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:516
+msgid "Select header 2 top icon hover color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:465
+msgid ""
+"Select header 2 top left text hover color. This color only work if text have "
+"any link."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:456
+msgid "Select header 2 top text color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:340
+#: inc/metabox-and-options/theme-options.php:487
+msgid "Select Icon"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:565
+msgid "Select menu area background color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:89
+msgid "Select menu font."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:573
+#: inc/metabox-and-options/theme-options.php:581
+msgid "Select menu Text color."
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:212
+msgid "Select overlay color"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:88
+msgid "Select page"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:20
+msgid "Select Page Header"
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:27
+msgid "Select page header"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:52
+msgid "Select preloader wrapper background color."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:814
+msgid "Select Search layout."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:729
+msgid ""
+"Select single post default layout. You can override this settings in "
+"individual post."
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:59
+msgid "Select single post layout."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:195
+msgid ""
+"Select site header style.You can override this settings in individual page"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:155
+msgid "Select slider content column offset."
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:133
+msgid "Select slider content column width."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:341
+#: inc/metabox-and-options/theme-options.php:488
+msgid "Select social icon"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:221
+msgid "Set overlay opacity between .1-1"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:736
+msgid "Show Post Categoriese?"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:744
+msgid "Show Post Tags?"
+msgstr ""
+
+#: functions.php:95
+msgid "Sidebar"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:715
+msgid "Single Post"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:12
+msgid "Slider Bold Heading"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:23
+msgid "Slider Bold Heading ( 2nd Heading ) Text"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:34
+msgid "Slider Buttons"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:121
+msgid "Slider Content Settings"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:192
+msgid "Slider Overlay"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:177
+msgid "Slider text align"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:333
+#: inc/metabox-and-options/theme-options.php:480
+msgid "Social Site Name"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:391
+msgid "Subtitle Text"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#. Name of the template
+msgid "tanks page llamadas"
+msgstr ""
+
+#: inc/metabox-and-options/testimonial-metabox.php:13
+msgid "Testimonial Options "
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:283
+#: inc/metabox-and-options/theme-options.php:428
+msgid "Text"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:176
+msgid "Text align"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:891
+#: inc/metabox-and-options/theme-options.php:963
+msgid "Text Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:899
+#: inc/metabox-and-options/theme-options.php:971
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:290
+#: inc/metabox-and-options/theme-options.php:398
+#: inc/metabox-and-options/theme-options.php:435
+msgid "Text Icon"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:297
+#: inc/metabox-and-options/theme-options.php:444
+msgid "Text link"
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeDraft"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:923
+msgid "Third Widget Width"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:384
+msgid "Title Text"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:411
+msgid "Top Background Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:359
+#: inc/metabox-and-options/theme-options.php:506
+msgid "Top Icon Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:368
+#: inc/metabox-and-options/theme-options.php:514
+msgid "Top Icon Hover Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:274
+#: inc/metabox-and-options/theme-options.php:419
+msgid "Top Left Text"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:308
+#: inc/metabox-and-options/theme-options.php:455
+msgid "Top Left Text Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:317
+#: inc/metabox-and-options/theme-options.php:463
+msgid "Top Left Text Hover Color"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:376
+msgid "Top Right Text"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:325
+#: inc/metabox-and-options/theme-options.php:472
+msgid "Top Social Icons"
+msgstr ""
+
+#: inc/metabox-and-options/testimonial-metabox.php:26
+msgid "Type author official post designation here"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:96
+msgid "Type button external link"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:238
+#: inc/metabox-and-options/slide-metabox.php:56
+msgid "Type button text here"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:247
+msgid "Type button URL here"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:948
+msgid "Type copyright text here."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:908
+msgid "Type first widget width in %"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:932
+msgid "Type fourth widget width in %"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:916
+msgid "Type second widget width in %"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:334
+#: inc/metabox-and-options/theme-options.php:481
+msgid "Type site name. This is an optional field"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:24
+msgid "Type slider bold heading text here."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:348
+#: inc/metabox-and-options/theme-options.php:495
+msgid "Type social url"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:392
+msgid "Type subtitle text here"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:284
+#: inc/metabox-and-options/theme-options.php:429
+msgid "Type text here"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:298
+#: inc/metabox-and-options/theme-options.php:445
+msgid "Type text link.Leave blank if you don't want to use link"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:924
+msgid "Type third widget width in %"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:385
+msgid "Type title text here"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:62
+msgid "Typography"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:792
+msgid "Upload archive page banner image."
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:93
+msgid ""
+"Upload banner background image here. If empty, default background image show "
+"from theme option. "
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:849
+msgid "Upload error 404 page banner image."
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:876
+msgid "Upload footer widget area background image"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:533
+msgid "Upload header 1 logo"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:541
+msgid "Upload header 2 logo"
+msgstr ""
+
+#: inc/metabox-and-options/theme-options.php:821
+msgid "Upload search page banner image."
+msgstr ""
+
+#: inc/metabox-and-options/page-metabox.php:101
+msgid "Use Custom Title?"
+msgstr ""
+
+#: inc/xzopro-comment-template.php:29
+msgid "Website"
+msgstr ""
+
+#: inc/required-plugins.php:40
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#. Name of the theme
+msgid "Xzopro"
+msgstr ""
+
+#: functions.php:193
+msgid "Xzopro Demo Import"
+msgstr ""
+
+#. Description of the theme
+msgid "Xzopro is a business consultant theme."
+msgstr ""
+
+#: inc/metabox-and-options/metabox-and-options.php:27
+#: inc/metabox-and-options/metabox-and-options.php:32
+msgid "Xzopro Options"
+msgstr ""
+
+#: inc/required-plugins.php:56
+msgid "Xzopro Toolkit"
+msgstr ""
+
+#: inc/metabox-and-options/slide-metabox.php:107
+msgid "Yes"
+msgstr ""
+
+#: inc/xzopro-comment-template.php:49
+msgid "Your Comment"
+msgstr ""
