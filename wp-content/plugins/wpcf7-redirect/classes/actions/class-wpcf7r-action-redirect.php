@@ -38,7 +38,7 @@ class WPCF7R_Action_Redirect extends WPCF7R_Action {
 		$parent_fields = parent::get_default_fields();
 
 		unset( $parent_fields['action_status'] );
-
+ 
 		return array_merge(
 			array(
 				array(

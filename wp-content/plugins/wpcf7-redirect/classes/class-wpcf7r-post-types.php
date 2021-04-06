@@ -190,6 +190,9 @@ class WPCF7R_Post_Types {
 				case 'action-save_lead':
 					$field['value'] = $field['value']['data']['lead_id'];
 					break;
+				case 'action-popup':
+					$field['value'] = $field['value'] ? true : false;
+					break;
 				case 'action-mailchimp':
 					if ( is_wp_error( $field['value'] ) ) {
 						$field['value'] = $field['value']->get_error_message();
@@ -197,7 +200,20 @@ class WPCF7R_Post_Types {
 					break;
 			}
 
-			WPCF7R_Html::render_field( $field, $field['prefix'] );
+			if ( substr( $field['name'], 0, 1 ) === '_' ) {
+				continue;
+			} elseif ( strpos( $field['name'], 'action-' ) === false ) {
+				WPCF7R_Html::render_field( $field, $field['prefix'] );
+			} else {
+				?>
+				<div class="field-wrap">
+					<label class="wpcf7-redirect-lead_type">
+						<strong><?php echo $field['label']; ?></strong>
+					</label>
+					<?php echo is_array( $field['value'] ) ? esc_html( serialize( $field['value'] ) ) : $field['value']; ?>
+				</div>
+				<?php
+			}
 		}
 	}
 

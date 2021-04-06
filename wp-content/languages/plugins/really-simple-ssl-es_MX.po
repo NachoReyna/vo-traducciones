@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-12 14:23:50+0000\n"
+"PO-Revision-Date: 2021-03-24 14:10:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,7 +11,39 @@ msgstr ""
 "Language: es_MX\n"
 "Project-Id-Version: Plugins - Really Simple SSL - Stable (latest release)\n"
 
-#: class-admin.php:2679
+#: grid/templates/tips-tricks.php:39
+msgid "Adding a Permission Policy"
+msgstr "Añadiendo una política de permisos"
+
+#: grid/templates/tips-tricks.php:31
+msgid "Adding a Content Security Policy"
+msgstr "Añadiendo una política de seguridad de contenidos"
+
+#: class-admin.php:3079
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr "O establece que tu archivo \"wp-config.php\" tenga permisos de escritura y recarga esta página."
+
+#: class-admin.php:3071
+msgid "Add the following lines of code to your wp-config.php."
+msgstr "Añade las siguientes líneas de código a tu archivo \"wp-config.php\"."
+
+#: class-admin.php:3071
+msgid "To set the httponly secure cookie settings, your wp-config.php has to be edited, but the file is not writable."
+msgstr "Para establecer los ajustes de las cookies seguras HttpOnly, tu archivo \"wp-config.php\" tiene que ser editado, pero el archivo no tiene permisos de escritura."
+
+#: class-admin.php:3064
+msgid "HttpOnly Secure cookies not set."
+msgstr "Las cookies seguras HttpOnly no están establecidas."
+
+#: class-admin.php:3057
+msgid "New feature! HttpOnly Secure cookies have been set automatically!"
+msgstr "¡Nueva característica! ¡Se han establecido automáticamente las cookies seguras HttpOnly!"
+
+#: class-admin.php:3104
+msgid "Due to a recent update by WP Engine, we have changed your settings automatically to adapt."
+msgstr "Debido a una actualización reciente de WP Engine, cambiamos tu configuración automáticamente para adaptarla."
+
+#: class-admin.php:2819
 msgid "The Really Simple SSL plugin folder in the /wp-content/plugins/ directory has been renamed to %s. This might cause issues when deactivating, or with premium add-ons. To fix this you can rename the Really Simple SSL folder back to the default %s."
 msgstr "La carpeta del plugin Really Simple SSL en el directorio \"/wp-content/plugins/\" ha sido renombrada a \"%s\". Esto puede causar problemas al desactivarlo o con las extensiones premium. Para corregirlo, puedes volver a renombrar la carpeta de Really Simple SSL al nombre predeterminado \"%s\"."
 
@@ -19,13 +51,9 @@ msgstr "La carpeta del plugin Really Simple SSL en el directorio \"/wp-content/p
 msgid "Not all recommended security headers are installed"
 msgstr "No se han instalado todas las cabeceras de seguridad recomendadas"
 
-#: grid/templates/other-plugins.php:54
+#: grid/templates/other-plugins.php:40
 msgid "Beautiful recipes optimized for Google "
 msgstr "Fantásticas recetas optimizadas para Google "
-
-#: grid/templates/other-plugins.php:32
-msgid "Track searches on your website"
-msgstr "Rastrea las búsquedas en tu web"
 
 #: class-site-health.php:60
 msgid "The recommended security headers are detected on your site."
@@ -43,7 +71,7 @@ msgstr "Prueba de cabeceras de seguridad"
 msgid "SSL Status Test"
 msgstr "Prueba de estado del SSL"
 
-#: class-admin.php:2757
+#: class-admin.php:2897
 msgid "No SSL detected"
 msgstr "No se ha detectado SSL"
 
@@ -79,183 +107,183 @@ msgstr "Really Simple SSL detectó un certificado SSL, pero no se ha configurado
 msgid "SSL is not enabled."
 msgstr "SSL no está activado."
 
-#: class-admin.php:4034
+#: class-admin.php:4297
 msgid "Deactivate, revert to http"
 msgstr "Desactivar, volver a http"
 
-#: class-admin.php:4033
+#: class-admin.php:4296
 msgid "Deactivate, keep https"
 msgstr "Desactivar, mantener https"
 
-#: class-admin.php:4020
+#: class-admin.php:4283
 msgid "The WordPress 301 redirect will stop working"
 msgstr "La redirección 301 de WordPress dejará de funcionar"
 
-#: class-admin.php:4015
+#: class-admin.php:4278
 msgid "Deactivate, and revert to http. This will remove all changes by the plugin."
 msgstr "Desactivar y volver a http. Esto eliminará todos los cambios hechos por el plugin."
 
-#: class-admin.php:4014
+#: class-admin.php:4277
 msgid "Deactivate, but stay on SSL."
 msgstr "Desactivar, pero quedarse en SSL."
 
-#: class-admin.php:4012
+#: class-admin.php:4275
 msgid "To deactivate the plugin correctly, please select if you want to:"
 msgstr "Para desactivar el plugin correctamente, por favor, selecciona si quieres:"
 
-#: class-admin.php:3817
+#: class-admin.php:3998
 msgid "If the setting 'stop editing the .htaccess file' is enabled, you can't change this setting."
 msgstr "Si el ajuste \"dejar de editar el archivo .htaccess\" está activo, no puedes cambiar este ajuste."
 
-#: class-admin.php:3676
+#: class-admin.php:3857
 msgid "Enable this option to permanently dismiss all +1 notices in the 'Your progress' tab"
 msgstr "Activa esta opción para descartar permanentemente todos los avisos de la pestaña de \"Tu progreso\""
 
-#: class-admin.php:3673
+#: class-admin.php:3854
 msgid "Fire mixed content fixer with different method"
 msgstr "Inicia el corrector de contenido mixto con un método diferente"
 
-#: class-admin.php:3655
+#: class-admin.php:3836
 msgid "Enable WordPress 301 redirect"
 msgstr "Activar la redirección 301 de WordPress"
 
-#: class-admin.php:3654
+#: class-admin.php:3835
 msgid "Redirects all requests over HTTP to HTTPS using a PHP 301 redirect. Enable if the .htaccess redirect cannot be used, for example on NGINX servers."
 msgstr "Redirige todas las peticiones sobre HTTP a HTTPS mediante una redirección 301 de PHP. Activa esto si la redirección .htaccess no se puede usar, por ejemplo, en servidores NGINX."
 
-#: class-admin.php:3622
+#: class-admin.php:3803
 msgid "Copied!"
 msgstr "¡Copiado!"
 
-#: class-admin.php:3616
+#: class-admin.php:3797
 msgid " You still have %s tasks open."
 msgstr " Todavía tienes %s tareas abiertas."
 
-#: class-admin.php:3521
+#: class-admin.php:3702
 msgid "Premium"
 msgstr "Premium"
 
-#: class-admin.php:3519
+#: class-admin.php:3700
 msgid "Open"
 msgstr "Abrir"
 
-#: class-admin.php:3517
+#: class-admin.php:3698
 msgid "Warning"
 msgstr "Advertencia"
 
-#: class-admin.php:3515
+#: class-admin.php:3696
 msgid "Completed"
 msgstr "Completado"
 
-#: class-admin.php:3448
+#: class-admin.php:3629
 msgid "Instructions manual"
 msgstr "Manual de instrucciones"
 
-#: class-admin.php:3394
+#: class-admin.php:3574
 msgid "Upgrade to pro"
 msgstr "Actualizar a pro"
 
-#: class-admin.php:3391
+#: class-admin.php:3576
 msgid "Installed"
 msgstr "Instalado"
 
-#: class-admin.php:3388
+#: class-admin.php:3571
 msgid "Install"
 msgstr "Instalar"
 
-#: class-admin.php:3281
+#: class-admin.php:3458
 msgid "Tips & Tricks"
 msgstr "Trucos y consejos"
 
-#: class-admin.php:3035
+#: class-admin.php:3212
 msgid "%sEnable%s or %sdismiss%s"
 msgstr "%sActivar%s o %sdescartar%s"
 
-#: class-admin.php:3032
+#: class-admin.php:3209
 msgid "%sMore info%s or %sdismiss%s"
 msgstr "%sMás información%s o %sdescartar%s"
 
-#: class-admin.php:2929
+#: class-admin.php:3093
 msgid "Recommended security headers not enabled (%sRead more%s)."
 msgstr "Cabeceras de seguridad recomendadas no activadas (%sSaber más%s)"
 
-#: class-admin.php:2885
+#: class-admin.php:3025
 msgid "Your site uses Divi. This can require some additional steps before getting the secure lock."
 msgstr "Tu sitio usa Divi. Esto puede requerir algunos pasos adicionales antes de conseguir un bloqueo seguro."
 
-#: class-admin.php:2871
+#: class-admin.php:3011
 msgid "Your site uses Elementor. This can require some additional steps before getting the secure lock."
 msgstr "Tu sitio usa Elementor. Esto puede requerir algunos pasos adicionales antes de conseguir un bloqueo seguro."
 
-#: class-admin.php:2856
+#: class-admin.php:2996
 msgid "The .htaccess redirect rules selected by this plugin failed in the test. Set manually or dismiss to leave on WordPress redirect."
 msgstr "Las reglas de redirección de .htaccess seleccionadas por este plugin fallaron la prueba. Configúralas manualmente o descártalo para usar la redirección de WordPress."
 
-#: class-admin.php:2850
+#: class-admin.php:2990
 msgid "The %s file is not writable. You can either use the WordPress redirect, add the rules manually, or set the file to %swritable%s."
 msgstr "El archivo %s no tiene permisos de escritura. Puedes usar la redirección de WordPress, añadir las reglas manualmente o hacer que el archivo tenga %spermisos de escritura%s."
 
-#: class-admin.php:2838
+#: class-admin.php:2978
 msgid "WordPress 301 redirect enabled. We recommend to enable a 301 .htaccess redirect."
 msgstr "Redirección 301 de WordPress activada. Recomendamos activar la redirección 301 por .htaccess."
 
-#: class-admin.php:2798
+#: class-admin.php:2938
 msgid "Mixed content fixer not enabled. Enable the option to fix mixed content on your site."
 msgstr "El corrector de contenido mixto no está activado. Activa la corrección de contenido mixto en tu sitio."
 
-#: class-admin.php:2787
+#: class-admin.php:2927
 msgid "The mixed content fixer is active, but was not detected on the frontpage."
 msgstr "El corrector de contenido mixto está activo, pero no se ha detectado en la portada."
 
-#: class-admin.php:2780
+#: class-admin.php:2920
 msgid "Really Simple SSL has received no response from the webpage."
 msgstr "Really Simple SSL no ha recibido ninguna respuesta de la web."
 
-#: class-admin.php:2758
+#: class-admin.php:2898
 msgid "No SSL detected. See our guide on how to %sget a free SSL certificate%s. If you do have an SSL certificate, try to reload this page over https by clicking this link: %sReload over https.%s"
 msgstr "No se ha detectado ningún SSL. Mira nuestra guía sobre %scómo conseguir un certificado SSL gratuito%s. Si tienes un certificado SSL  prueba a recargar esta página en https haciendo clic en este enlace: %sRecargar en https.%s"
 
-#: class-admin.php:2753
+#: class-admin.php:2893
 msgid "Cannot activate SSL due to system configuration."
 msgstr "No es posible activar el SSL debido a la configuración del sistema."
 
-#: class-admin.php:2742
+#: class-admin.php:2882
 msgid "SSL is not enabled yet."
 msgstr "SSL aún no está activado."
 
-#: class-admin.php:2725
+#: class-admin.php:2865
 msgid "Really Simple SSL 4.0. Learn more about our newest major release."
 msgstr "Really Simple SSL 4.0. Aprende más sobre nuestra siguiente versión mayor."
 
-#: class-admin.php:2724
+#: class-admin.php:2864
 msgid "https://really-simple-ssl.com/really-simple-ssl-4-a-new-dashboard"
 msgstr "https://really-simple-ssl.com/really-simple-ssl-4-a-new-dashboard"
 
-#: class-admin.php:2695
+#: class-admin.php:2835
 msgid "SSL is now activated. Check if your website is secure by following this article."
 msgstr "SSL ya está activado. Comprueba si tu web es segura consultando este artículo."
 
-#: class-admin.php:2646
+#: class-admin.php:2786
 msgid "No recommended redirect rules detected."
 msgstr "No se ha detectado ninguna regla de redirección recomendada."
 
-#: class-admin.php:2567
+#: class-admin.php:2707
 msgid "General"
 msgstr "General"
 
-#: class-admin.php:497
+#: class-admin.php:502
 msgid "Before you migrate, please check for: "
 msgstr "Antes de la migración, por favor, comprueba: "
 
-#: rlrsssl-really-simple-ssl.php:162
+#: rlrsssl-really-simple-ssl.php:165
 msgid "Please upgrade to the latest version to be able use the full functionality of the plugin."
 msgstr "Por favor, actualiza a la última versión para poder usar toda la funcionalidad del plugin."
 
-#: rlrsssl-really-simple-ssl.php:161
+#: rlrsssl-really-simple-ssl.php:164
 msgid "You have a premium add-on with a version that is not compatible with the >4.0 release of Really Simple SSL."
 msgstr "Tienes una extensión premium con una versión que no es compatible con la versión 4.0 o superiores de Really Simple SSL."
 
-#: rlrsssl-really-simple-ssl.php:160
+#: rlrsssl-really-simple-ssl.php:163
 msgid "Plugin dependency error"
 msgstr "Error de dependencia del plugin"
 
@@ -267,7 +295,7 @@ msgstr "No se puede activar Really Simple SSL. El plugin requiere WordPress 4.8 
 msgid "Really Simple SSL cannot be activated. The plugin requires PHP 5.6 or higher"
 msgstr "No se puede activar Really Simple SSL. El plugin requiere PHP 5.6 o superior"
 
-#: class-multisite.php:1013
+#: class-multisite.php:1014
 msgid "Really Simple SSL has converted all your websites to non SSL."
 msgstr "Really Simple SSL ha convertido todas tus webs a no SSL."
 
@@ -287,15 +315,15 @@ msgstr "Conversión del sitio en progreso. Por favor, recarga esta página para 
 msgid "Setup"
 msgstr "Configuración"
 
-#: class-admin.php:3289 class-multisite.php:398
+#: class-multisite.php:398 class-admin.php:3466
 msgid "Our plugins"
 msgstr "Nuestros plugins"
 
-#: class-admin.php:3296 class-multisite.php:390
+#: class-multisite.php:390 class-admin.php:3473
 msgid "Support forum"
 msgstr "Foro de soporte"
 
-#: class-admin.php:3266 class-multisite.php:374
+#: class-multisite.php:374 class-admin.php:3443
 msgid "Your progress"
 msgstr "Tu progreso"
 
@@ -303,12 +331,12 @@ msgstr "Tu progreso"
 msgid "Choose option"
 msgstr "Elegir una opción"
 
-#: class-admin.php:4094 class-multisite.php:236
+#: class-multisite.php:236 class-admin.php:4357
 msgid "Upgrade to premium"
 msgstr "Actualizar a premium"
 
-#: class-admin.php:2591 class-admin.php:4086 class-multisite.php:228
-#: class-multisite.php:447
+#: class-multisite.php:228 class-multisite.php:447 class-admin.php:2731
+#: class-admin.php:4349
 msgid "Support"
 msgstr "Soporte"
 
@@ -344,11 +372,11 @@ msgstr "¡Hazte Pro!"
 msgid "SSL Not activated"
 msgstr "SSL no activado"
 
-#: class-admin.php:3612 grid/templates/progress.php:39
+#: grid/templates/progress.php:39 class-admin.php:3793
 msgid "SSL is not yet enabled on this site."
 msgstr "SSL aún no está activado en este sitio."
 
-#: class-admin.php:3608 grid/templates/progress.php:33
+#: grid/templates/progress.php:33 class-admin.php:3789
 msgid "Basic SSL configuration finished! Improve your score with %sReally Simple SSL Pro%s."
 msgstr "¡La configuración básica del SSL está terminada! Mejora tu puntuación con %sReally Simple SSL Pro%s."
 
@@ -356,13 +384,13 @@ msgstr "¡La configuración básica del SSL está terminada! Mejora tu puntuaci�
 msgid "SSL configuration finished!"
 msgstr "¡Configuración de SSL finalizada!"
 
-#: class-admin.php:3615 grid/templates/progress.php:25
+#: grid/templates/progress.php:25 class-admin.php:3796
 msgid "You still have %s task open."
 msgid_plural "You still have %s tasks open."
 msgstr[0] "Todavía tienes %s tarea pendiente."
 msgstr[1] "Todavía tienes %s tareas pendientes."
 
-#: class-admin.php:3610 grid/templates/progress.php:25
+#: grid/templates/progress.php:25 class-admin.php:3791
 msgid "SSL is activated on your site."
 msgstr "SSL está activado en tu sitio."
 
@@ -402,17 +430,13 @@ msgstr "Tipo de servidor:"
 msgid "Download system status"
 msgstr "Estado del sistema de descargas"
 
-#: grid/templates/tips-tricks.php:48
+#: grid/templates/tips-tricks.php:56
 msgid "Any questions? See the %sdocumentation%s or the %sWordPress Forum%s."
 msgstr "¿Alguna pregunta? Consulta la %sdocumentación%s o los %sforos de WordPress%s."
 
-#: grid/templates/tips-tricks.php:39
+#: grid/templates/tips-tricks.php:47
 msgid "Information about landing page redirects"
 msgstr "Información sobre redirecciones de páginas de destino"
-
-#: grid/templates/tips-tricks.php:31
-msgid "Improve security: Secure cookies"
-msgstr "Mejora la seguridad: Cookies seguras"
 
 #: grid/templates/tips-tricks.php:23
 msgid "Improve security: Add security headers"
@@ -424,7 +448,7 @@ msgstr "Mejora la seguridad: Activa HTTP con seguridad de transporte estricta (H
 
 #: grid/templates/tips-tricks.php:10 grid/templates/tips-tricks.php:18
 #: grid/templates/tips-tricks.php:26 grid/templates/tips-tricks.php:34
-#: grid/templates/tips-tricks.php:42
+#: grid/templates/tips-tricks.php:42 grid/templates/tips-tricks.php:50
 msgid "Read more"
 msgstr "Leer más"
 
@@ -448,31 +472,31 @@ msgstr "Really Simple Plugins"
 msgid "Really Simple SSL Pro"
 msgstr "Really Simple SSL Pro"
 
-#: class-admin.php:2315
+#: class-admin.php:2455
 msgid "Hi, Really Simple SSL has kept your site secure for some time now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
 msgstr "Hola, Really Simple SSL ha mantenido tu sitio seguro desde hace un tiempo, ¡fantástico! Si tienes un momento, por favor, considera dejar una reseña en WordPress.org para hacer correr la voz. ¡Te lo agradecemos mucho! Si tienes alguna pregunta o comentario, déjanos un %smensaje%s."
 
-#: class-admin.php:517
+#: class-admin.php:522
 msgid "Check out Really Simple SSL Pro"
 msgstr "Echa un vistazo a Really Simple SSL Pro"
 
-#: class-admin.php:666
+#: class-admin.php:755
 msgid "Get ready with PRO!"
 msgstr "¡Prepárate con la versión PRO!"
 
-#: class-admin.php:501
+#: class-admin.php:506
 msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server"
 msgstr "Imágenes, hojas de estilo o scripts de un dominio sin un certificado SSL: elimínalas o muévelas a tu propio servidor"
 
-#: class-admin.php:2325
+#: class-admin.php:2465
 msgid "Don't show again"
 msgstr "No volver a mostrar"
 
-#: class-admin.php:2804
+#: class-admin.php:2944
 msgid "The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix."
 msgstr "El corrector de contenido mixto no ha podido ser detectado debido a un error de cURL: %s. Los errores de cURL a menudo son causados por una versión obsoleta de PHP o de cURL y no afectan a la portada de tu sitio. Contacta con tu proveedor de hosting para corregirlo."
 
-#: class-admin.php:2792
+#: class-admin.php:2932
 msgid "Error occurred when retrieving the webpage."
 msgstr "Ha ocurrido un error al recuperar la web."
 
@@ -492,19 +516,15 @@ msgstr "Has configurado una redirección 301 a SSL. Esto es importante para el S
 msgid "301 SSL redirect enabled"
 msgstr "Redirección 301 SSL activada"
 
-#: class-admin.php:3677
+#: class-admin.php:3858
 msgid "Dismiss all Really Simple SSL notices"
 msgstr "Descartar todos los avisos de Really Simple SSL"
 
-#: class-admin.php:2918
-msgid "Secure cookie settings not enabled (%sRead more%s)."
-msgstr "No se han activado los ajustes de cookies seguras (%sleer más%s) ."
-
-#: class-admin.php:2902
+#: class-admin.php:3042
 msgid "HTTP Strict Transport Security is not enabled %s(Read more)%s."
 msgstr "HTTP Strict Transport Security no está activado %s(leer más)%s."
 
-#: class-admin.php:2833
+#: class-admin.php:2973
 msgid "301 redirect to https set: .htaccess redirect."
 msgstr "Redirección 301 a https configurada: Redirección .htaccess."
 
@@ -512,7 +532,7 @@ msgstr "Redirección 301 a https configurada: Redirección .htaccess."
 msgid "If the conversion does not proceed after a few minutes, click %shere%s to force the conversion process."
 msgstr "Si la conversión no avanza después de unos minutos, haz clic %saquí%s para forzar el proceso."
 
-#: class-admin.php:2665
+#: class-admin.php:2805
 msgid "The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet."
 msgstr "El archivo «force-deactivate.php» tiene que ser renombrado a .txt. En caso contrario, tu SSL lo puede desactivar cualquiera en internet."
 
@@ -524,15 +544,15 @@ msgstr "Una vez por minuto"
 msgid "Conversion of websites %s percent complete."
 msgstr "Convirtiendo sitios, %s por ciento completo."
 
-#: class-admin.php:2324
+#: class-admin.php:2464
 msgid "Maybe later"
 msgstr "Tal vez luego"
 
-#: class-admin.php:2323
+#: class-admin.php:2463
 msgid "Leave a review"
 msgstr "Dejar una reseña"
 
-#: class-admin.php:2317
+#: class-admin.php:2457
 msgid "Hi, Really Simple SSL has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
 msgstr "Hola, Really Simple SSL ha mantenido tu sitio seguro durante un mes, ¡fantástico! Si tienes un momento, por favor, plantéate dejar una reseña en WordPress.org para hacer correr la voz. ¡Lo agradecemos mucho! Si tienes alguna pregunta o comentario, déjanos un %smensaje%s."
 
@@ -548,39 +568,39 @@ msgstr "Esto provoca problemas al activar SSL en toda la red ya que los subdomin
 msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
 msgstr "Estás ejecutando una instalación multisitio con subdominios, pero tu sitio no tiene un certificado wildcard."
 
-#: class-admin.php:4032
+#: class-admin.php:4295
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: class-admin.php:4022
+#: class-admin.php:4285
 msgid "The .htaccess redirect will remain active"
 msgstr "La redirección del archivo \".htaccess\" seguirá activa"
 
-#: class-admin.php:4021
+#: class-admin.php:4284
 msgid "Your site address will remain https://"
 msgstr "La dirección de tu sitio seguirá siendo https://"
 
-#: class-admin.php:4019
+#: class-admin.php:4282
 msgid "The mixed content fixer will stop working"
 msgstr "El corrector de contenido mixto dejará de funcionar"
 
-#: class-admin.php:4017
+#: class-admin.php:4280
 msgid "Deactivating the plugin while keeping SSL will do the following:"
 msgstr "Desactivar el plugin manteniendo el SSL hará lo siguiente:"
 
-#: class-admin.php:3999
+#: class-admin.php:4262
 msgid "Are you sure?"
 msgstr "¿Estás seguro?"
 
-#: class-admin.php:3569
+#: class-admin.php:3750
 msgid "More info"
 msgstr "Más información"
 
-#: class-admin.php:113
+#: class-admin.php:115
 msgid "Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=\"%s\" target=\"_blank\">here</a>."
 msgstr "Really Simple SSL y las extensiones para Really Simple SSL no procesan información personal identificable, así que el RGPD no se aplica a estos plugins o al uso de estos plugins en tu web. Puedes encontrar nuestra política de privacidad <a href=\"%s\" target=\"_blank\">aquí</a>."
 
-#: class-admin.php:507
+#: class-admin.php:512
 msgid "We strongly recommend to create a %sbackup%s of your site before activating SSL"
 msgstr "Recomendamos seriamente crear una %scopia de seguridad%s de tu sitio antes de activar SSL"
 
@@ -588,19 +608,15 @@ msgstr "Recomendamos seriamente crear una %scopia de seguridad%s de tu sitio ant
 msgid "https://really-simple-plugins.com"
 msgstr "https://really-simple-plugins.com"
 
-#: class-admin.php:2914
-msgid "Secure cookies set."
-msgstr "Cookies seguras establecidas."
-
-#: class-admin.php:2710
+#: class-admin.php:2850
 msgid "Don't forget to change your settings in Google Analytics and Search Console."
 msgstr "No olvides cambiar tus ajustes en Google Analytics y en Search Console."
 
-#: class-admin.php:3672
+#: class-admin.php:3853
 msgid "If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer.\""
 msgstr "Si se establece esta opción en «true», el corrector de contenido mixto lanzará el hook \"init\" en vez del hook \"template_redirect\". Usa esta opción solo cuando experimentes problemas con el corrector de contenido mixto."
 
-#: class-admin.php:513
+#: class-admin.php:518
 msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
 msgstr "También puedes dejar que el escaneo automático de la versión pro arregle esto por ti, ¡y conseguir soporte premium, mejoras en seguridad con HSTS y más!"
 
@@ -628,47 +644,47 @@ msgstr "en toda la red"
 msgid "Enable SSL"
 msgstr "Activar SSL"
 
-#: class-admin.php:3784 class-admin.php:3814 class-admin.php:4055
+#: class-admin.php:3965 class-admin.php:3995 class-admin.php:4318
 msgid "This option is enabled on the network menu."
 msgstr "Esta opción está activa en el menú de red."
 
-#: class-admin.php:508
+#: class-admin.php:513
 msgid "You may need to login in again."
 msgstr "Puede que tengas que acceder de nuevo."
 
-#: class-admin.php:3810
+#: class-admin.php:3991
 msgid "Before you enable the htaccess redirect, make sure you know how to %sregain access%s to your site in case of a redirect loop."
 msgstr "Antes de que actives la redirección del archivo «.htaccess», asegúrate de que sabes cómo %srecuperar el acceso%s a tu sitio en caso de que se genere un bucle de redirección."
 
-#: class-admin.php:3659
+#: class-admin.php:3840
 msgid "A .htaccess redirect is faster and works better with caching. Really Simple SSL detects the redirect code that is most likely to work (99% of websites), but this is not 100%. Make sure you know how to regain access to your site if anything goes wrong!"
 msgstr "Una redirección del archivo \".htaccess\" es más rápida y funciona mejor con el almacenamiento en la caché. Really Simple SSL detecta el código de redirección que sea más probable que funcione (en el 99 % de las webs), pero no es al 100%. ¡Asegúrate de que sabes cómo recuperar el acceso a tu sitio si algo sale mal!"
 
-#: class-admin.php:3660 class-site-health.php:155
+#: class-admin.php:3841 class-site-health.php:155
 msgid "Enable 301 .htaccess redirect"
 msgstr "Permitir redirección 301 de .htaccess"
 
-#: class-admin.php:2821
+#: class-admin.php:2961
 msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
 msgstr "No se ha configurado ninguna redirección 301. Activa la redirección 301 de WordPress en los ajustes para conseguir una redirección 301 permanente."
 
-#: class-admin.php:2844
+#: class-admin.php:2984
 msgid "Enable a .htaccess redirect or WordPress redirect in the settings to create a 301 redirect."
 msgstr "Activa una redirección .htaccess o una redirección de WordPress en los ajustes para crear una redirección 301."
 
-#: class-admin.php:3649
+#: class-admin.php:3830
 msgid "In most cases you need to leave this enabled, to prevent mixed content issues on your site."
 msgstr "En la mayoría de las ocasiones tienes que dejar esto activo, para evitar problemas de contenido mixto en tu sitio."
 
-#: class-admin.php:3666
+#: class-admin.php:3847
 msgid "If you want to customize the Really Simple SSL .htaccess, you need to prevent Really Simple SSL from rewriting it. Enabling this option will do that."
 msgstr "Si quieres personalizar el .htaccess de Really Simple SSL tienes que evitar que Really Simple SSL vuelva a escribir en él. Activando esta opción haces eso."
 
-#: class-admin.php:2898
+#: class-admin.php:3038
 msgid "HTTP Strict Transport Security was enabled."
 msgstr "HTTP Strict Transport Security está activado."
 
-#: class-admin.php:2817
+#: class-admin.php:2957
 msgid "301 redirect to https set."
 msgstr "Redirección 301 a https establecido."
 
@@ -676,7 +692,7 @@ msgstr "Redirección 301 a https establecido."
 msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support and increased security with HSTS included."
 msgstr "También puedes dejar que el escaneo automático de la versión pro haga esto por ti, y obtener soporte premium y mayor seguridad con HSTS incluido."
 
-#: class-admin.php:4088 class-multisite.php:230
+#: class-multisite.php:230 class-admin.php:4351
 msgid "Premium Support"
 msgstr "Soporte premium"
 
@@ -684,7 +700,7 @@ msgstr "Soporte premium"
 msgid "Check out Really Simple SSL Premium"
 msgstr "Echa un vistazo a Really Simple SSL Premium"
 
-#: class-admin.php:663
+#: class-admin.php:752
 msgid "Go ahead, activate SSL!"
 msgstr "¡Adelante, activa SSL!"
 
@@ -692,7 +708,7 @@ msgstr "¡Adelante, activa SSL!"
 msgid "SSL is not enabled yet"
 msgstr "SSL aún no está activo"
 
-#: class-admin.php:2738
+#: class-admin.php:2878
 msgid "SSL is enabled on your site."
 msgstr "SSL está activo en tu sitio."
 
@@ -700,31 +716,31 @@ msgstr "SSL está activo en tu sitio."
 msgid "SSL Activated"
 msgstr "SSL activado"
 
-#: class-admin.php:2219
+#: class-admin.php:2338
 msgid "Because your server does not pass a variable with which WordPress can detect SSL, WordPress may create redirect loops on SSL."
 msgstr "Debido a que tu servidor no pasa una variable por la que WordPress pueda detectar SSL WordPress no puede crear redirecciones a SSL."
 
-#: class-admin.php:2213
+#: class-admin.php:2332
 msgid "Or set your wp-config.php to %swritable%s and reload this page."
 msgstr "O haz que tu archivo \"wp-config.php\" tenga %spermisos de escritura%s y recarga esta página."
 
-#: class-admin.php:2197
+#: class-admin.php:2316
 msgid "Because your site is behind a loadbalancer and is_ssl() returns false, you should add the following line of code to your wp-config.php."
 msgstr "Debido a que tu sitio está detrás de un balanceador de carga y is_ssl() devuelve un error deberías añadir la siguiente línea de código a tu wp-config.php."
 
-#: class-admin.php:2196
+#: class-admin.php:2315
 msgid "Your wp-config.php has to be edited, but is not writable."
 msgstr "Hay que modificar tu wp-config.php pero no tiene permisos de escritura."
 
-#: class-admin.php:2193 class-admin.php:2220
+#: class-admin.php:2312 class-admin.php:2339
 msgid "Set your wp-config.php to %swritable%s and reload this page."
 msgstr "Haz que tu archivo \"wp-config.php\" tenga %spermisos de escritura%s y recarga esta página."
 
-#: class-admin.php:2191
+#: class-admin.php:2310
 msgid "A definition of a siteurl or homeurl was detected in your wp-config.php, but the file is not writable."
 msgstr "Se ha detectado la definición de una siteurl o homeurl en tu wp-config.php pero el archivo no tiene permisos de escritura."
 
-#: class-admin.php:2226
+#: class-admin.php:2345
 msgid "System detection encountered issues"
 msgstr "La detección del sistema encontró problemas"
 
@@ -732,7 +748,7 @@ msgstr "La detección del sistema encontró problemas"
 msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server."
 msgstr "Imágenes, hojas de estilo o scripts de un dominio sin certificado ssl: quítalos o muévelos a tu propio servidor."
 
-#: class-admin.php:500 class-multisite.php:545
+#: class-multisite.php:545 class-admin.php:505
 msgid "Http references in your .css and .js files: change any http:// into https://"
 msgstr "Referencias http en tus archivos \".css\" y \".js\": cambia cualquier http:// a https://"
 
@@ -740,7 +756,7 @@ msgstr "Referencias http en tus archivos \".css\" y \".js\": cambia cualquier ht
 msgid "Some things can't be done automatically. Before you migrate, please check for: "
 msgstr "Hay algunas cosas que no se pueden hacer automáticamente. Antes de migrar, por favor, revisa esto: "
 
-#: class-admin.php:487
+#: class-admin.php:492
 msgid "Almost ready to migrate to SSL!"
 msgstr "¡Ya casi hemos migrado a SSL!"
 
@@ -756,23 +772,22 @@ msgstr "Activar SSL por sitio"
 msgid "Activate SSL networkwide"
 msgstr "Activar SSL en toda la red"
 
-#: class-admin.php:49 class-multisite.php:27 class-help.php:9
-#: class-certificate.php:14 class-cache.php:10 class-server.php:10
-#: class-site-health.php:12 class-front-end.php:18
-#: class-mixed-content-fixer.php:13
+#: class-cache.php:10 class-help.php:9 class-multisite.php:27
+#: class-front-end.php:18 class-admin.php:49 class-site-health.php:12
+#: class-mixed-content-fixer.php:13 class-certificate.php:14
 msgid "%s is a singleton class and you cannot create a second instance."
 msgstr "%s es una clase singleton y no puedes crear una segunda instancia."
 
-#: class-admin.php:3849
+#: class-admin.php:4030
 msgid ".htaccess is currently not %swritable%s."
 msgstr "El archivo \".htaccess\" no tiene %spermisos de escritura%s en este momento."
 
-#: class-admin.php:2775
+#: class-admin.php:2915
 msgid "Mixed content fixer was successfully detected on the front-end."
 msgstr "El corrector de contenido mixto se ha detectado correctamente en la portada."
 
-#: class-admin.php:2585 grid/templates/tips-tricks-footer.php:3
-#: class-multisite.php:441
+#: grid/templates/tips-tricks-footer.php:3 class-multisite.php:441
+#: class-admin.php:2725
 msgid "Documentation"
 msgstr "Documentación"
 
@@ -788,7 +803,7 @@ msgstr "https://really-simple-ssl.com"
 msgid "Really Simple SSL"
 msgstr "Really Simple SSL"
 
-#: class-admin.php:3667
+#: class-admin.php:3848
 msgid "Stop editing the .htaccess file"
 msgstr "Dejar de modificar el archivo .htaccess"
 
@@ -796,7 +811,7 @@ msgstr "Dejar de modificar el archivo .htaccess"
 msgid "Save"
 msgstr "Guardar"
 
-#: class-admin.php:2763
+#: class-admin.php:2903
 msgid "An SSL certificate was detected on your site."
 msgstr "Se ha detectado un certificado SSL en tu sitio."
 
@@ -804,21 +819,21 @@ msgstr "Se ha detectado un certificado SSL en tu sitio."
 msgid "No SSL detected."
 msgstr "No se ha detectado SSL."
 
-#: class-admin.php:2530 class-admin.php:3274 class-admin.php:3647
-#: class-admin.php:4082 class-multisite.php:224 class-multisite.php:335
-#: class-multisite.php:382
+#: class-multisite.php:224 class-multisite.php:335 class-multisite.php:382
+#: class-admin.php:2670 class-admin.php:3451 class-admin.php:3828
+#: class-admin.php:4345
 msgid "Settings"
 msgstr "Ajustes"
 
-#: class-admin.php:3650
+#: class-admin.php:3831
 msgid "Mixed content fixer"
 msgstr "Solucionador de contenido mixto"
 
-#: class-admin.php:2508
+#: class-admin.php:2648
 msgid "SSL"
 msgstr "SSL"
 
-#: class-admin.php:2507
+#: class-admin.php:2647
 msgid "SSL settings"
 msgstr "Ajustes SSL"
 
@@ -834,10 +849,10 @@ msgstr "Al no estar definida la variable $_SERVER[\"HTTPS\"] tu web puede experi
 msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
 msgstr "Estás ejecutando una instalación multisitio en subcarpetas, lo que impide que este plugin solucione variables del servidor en el archivo wp-config.php."
 
-#: class-admin.php:2666
+#: class-admin.php:2806
 msgid "Check again"
 msgstr "Comprobar de nuevo"
 
-#: class-admin.php:2664
+#: class-admin.php:2804
 msgid "Major security issue!"
 msgstr "¡Importante problema de seguridad!"

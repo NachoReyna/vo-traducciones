@@ -288,17 +288,66 @@ class WPCF7R_Action {
 		if ( true === $args ) {
 			$args = array( 'html' => true );
 		}
-		$args          = wp_parse_args(
+
+		$args = wp_parse_args(
 			$args,
 			array(
 				'html'          => false,
 				'exclude_blank' => false,
 			)
 		);
+
 		$replaced_tags = wpcf7_mail_replace_tags( $content, $args );
 		$replaced_tags = do_shortcode( $replaced_tags );
 		$replaced_tags = $this->replace_lead_id_tag( $replaced_tags );
+
+		$files = $this->get_files_shortcodes_from_submitted_data();
+
+		if ( $files ) {
+			foreach ( $files as $file_shortcodes ) {
+				foreach ( $file_shortcodes as $file_shortcode => $data ) {
+					$replaced_tags = str_replace( $file_shortcode, $data, $replaced_tags );
+				}
+			}
+		}
+
 		return $replaced_tags;
+	}
+
+	public function get_files_shortcodes_from_submitted_data() {
+		$submission = WPCF7_Submission::get_instance();
+		$file_tags  = array();
+
+		if ( $submission ) {
+			$files = $submission->uploaded_files();
+
+			foreach ( $files as $file_key => $file_paths ) {
+				$file_paths = is_array( $file_paths ) ? $file_paths : array( $file_paths );
+
+				foreach ( $file_paths as $file_path ) {
+					$file_tags[ $file_key ] = array(
+						'[' . $file_key . '-filename]'     => basename( $file_path ),
+						'[' . $file_key . '-base_64_file]' => $this->base_64_file( $file_path ),
+						'[' . $file_key . '-path]'         => $file_path,
+					);
+				}
+			}
+		}
+
+		return $file_tags;
+	}
+	/**
+	 * Encode A File to base64
+	 *
+	 * @param [type] $path
+	 * @return void
+	 */
+	private function base_64_file( $path ) {
+
+		$data   = file_get_contents( $path );
+		$base64 = base64_encode( $data );
+
+		return $base64;
 	}
 
 	/**

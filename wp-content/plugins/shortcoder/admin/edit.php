@@ -218,39 +218,20 @@ class SC_Admin_Edit{
         $settings = Shortcoder::get_sc_settings( $post->ID );
         $editor = self::editor_props( $settings );
 
-        wp_localize_script( 'sc-admin-js', 'SC_EDITOR', $editor[ 'active' ] );
+        wp_localize_script( 'sc-admin-js', 'SC_EDITOR', array(
+            'active' => $editor[ 'active' ]
+        ));
 
         if( $editor[ 'active' ] != 'code' ){
             return false;
         }
 
-        $cm_cdn_url = 'https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/';
-        $cm_files = array(
-            'css' => array(
-                'codemirror.min.css'
-            ),
-            'js' => array(
-                'codemirror.min.js',
-                'mode/htmlmixed/htmlmixed.min.js',
-                'mode/css/css.min.js',
-                'mode/xml/xml.min.js',
-                'mode/javascript/javascript.min.js',
-                'addon/selection/active-line.min.js',
-                'addon/mode/overlay.min.js'
-            )
-        );
+        $cm_settings = array();
+        $cm_settings[ 'codeEditor' ] = wp_enqueue_code_editor(array(
+            'type' => 'htmlmixed'
+        ));
 
-        foreach( $cm_files as $type => $files ){
-            foreach( $files as $index => $file ){
-                $url = $cm_cdn_url . $file;
-                $id = 'sc-cm-' . $index;
-                if( $type == 'css' ){
-                    wp_enqueue_style( $id, $url, array(), SC_VERSION );
-                }else{
-                    wp_enqueue_script( $id, $url, array( 'sc-admin-js' ), SC_VERSION );
-                }
-            }
-        }
+        wp_localize_script( 'sc-admin-js', 'SC_CODEMIRROR', $cm_settings );
 
     }
 
@@ -272,11 +253,11 @@ class SC_Admin_Edit{
 
         echo '<li><span class="dashicons dashicons-list-view"></span>' . __( 'Custom parameter', 'shortcoder' ) . '<ul>';
         echo '<li class="sc_params_form"><h4>' . __( 'Enter custom parameter name', 'shortcoder' ) . '</h4>';
-            echo '<input type="text" class="sc_cp_box widefat" pattern="[a-zA-Z0-9_]+"/>';
+            echo '<input type="text" class="sc_cp_box widefat" pattern="[a-zA-Z0-9_-]+"/>';
             echo '<h4>' . __( 'Default value', 'shortcoder' ) . '</h4>';
             echo '<input type="text" class="sc_cp_default widefat"/>';
             echo '<button class="button sc_cp_btn">' . __( 'Insert parameter', 'shortcoder' ) . '</button>';
-            echo '<p class="sc_cp_info"><small>' . __( 'Only alphabets, numbers and underscores are allowed. Custom parameters are case insensitive', 'shortcoder' ) . '</small></p></li>';
+            echo '<p class="sc_cp_info"><small>' . __( 'Only alphabets, numbers, underscores and hyphens are allowed. Custom parameters are case insensitive', 'shortcoder' ) . '</small></p></li>';
         echo '</ul></li>';
 
         echo '<li><span class="dashicons dashicons-screenoptions"></span>' . __( 'Custom Fields', 'shortcoder' ) . '<ul>';

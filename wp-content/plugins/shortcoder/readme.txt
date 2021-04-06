@@ -6,9 +6,9 @@ Tags: shortcode, html, javascript, shortcodes, snippets, posts, pages, widgets, 
 Donate link: https://www.paypal.me/vaakash/
 License: GPLv2 or later
 Requires PHP: 5.3
-Requires at least: 4.4
-Tested up to: 5.6
-Stable tag: 5.3.4
+Requires at least: 4.9.0
+Tested up to: 5.7
+Stable tag: 5.4
 
 Create custom "Shortcodes" easily for HTML, JavaScript snippets and use the shortcodes within posts, pages & widgets.
 
@@ -105,6 +105,15 @@ No, right now the plugin supports only HTML, Javascript and CSS as shortcode con
 
 
 ## Changelog
+
+### 5.4
+* New: Code editor is now loaded locally and not from cloudflare.
+* New: Code editor now shows hints and highlights any syntax error.
+* New: Hyphens can now be used in shortcode custom parameters.
+* Fix: Handle scenario where shortcode attribute is received as a string sometimes.
+* Fix: Notice where `wp_localize_script` was called incorrectly.
+* Fix: Handle scenario where HTML is passed as shortcode parameter.
+* New: WordPress requirement changed from 4.4 to 4.9
 
 ### 5.3.4
 * New: Tested with WordPress 5.6

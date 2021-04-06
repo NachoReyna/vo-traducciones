@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Loco Translate - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-18 14:18:03+0000\n"
+"PO-Revision-Date: 2021-03-01 11:51:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,11 +11,30 @@ msgstr ""
 "Language: es_MX\n"
 "Project-Id-Version: Plugins - Loco Translate - Stable (latest release)\n"
 
-#: src/gettext/Compiler.php:187
+#. translators: Where %s is any number of strings
+#: src/js/Strings.php:83 src/gettext/Metadata.php:194
+msgid "%s string"
+msgid_plural "%s strings"
+msgstr[0] "%s cadena"
+msgstr[1] "%s cadenas"
+
+#: src/admin/file/MoveController.php:85
+msgid "%s file moved"
+msgid_plural "%s files moved"
+msgstr[0] "Movido %s archivo"
+msgstr[1] "Movidos %s archivos"
+
+#: tpl/admin/file/info-pot.php:31
+msgid "%s word"
+msgid_plural "%s words"
+msgstr[0] "%s palabra"
+msgstr[1] "%s palabras"
+
+#: src/gettext/Compiler.php:244
 msgid "PO file saved and MO/JSON files compiled"
 msgstr "Archivo PO guardado y archivos MO/JSON compilados"
 
-#: src/gettext/Compiler.php:151
+#: src/gettext/Compiler.php:148 src/gettext/Compiler.php:206
 msgid "JSON compilation failed for %s"
 msgstr "Ha fallado la compilación JSON para %s"
 
@@ -151,23 +170,23 @@ msgstr "Usar esta traducción"
 msgid "Nothing needed updating"
 msgstr "No es necesario actualizar nada"
 
-#: src/js/Strings.php:61 pub/js/min/editor.js:1
+#: src/js/Strings.php:61
 msgid "%s string updated"
 msgid_plural "%s strings updated"
 msgstr[0] "%s cadena actualizada"
 msgstr[1] "%s cadenas actualizadas"
 
-#: src/js/Strings.php:58 pub/js/min/editor.js:1
-msgid "%s string translated via %s"
-msgid_plural "%s strings translated via %s"
-msgstr[0] "%s cadena traducida vía %s"
-msgstr[1] "%s cadenas traducidas via %s"
+#: src/js/Strings.php:58
+msgid "%1$s string translated via %2$s"
+msgid_plural "%1$s strings translated via %2$s"
+msgstr[0] "%1$s cadena traducida a través de %2$s"
+msgstr[1] "%1$s cadenas traducidas via %2$s"
 
-#: src/js/Strings.php:54 pub/js/min/editor.js:1
-msgid "Translation job aborted with one string remaining"
+#: src/js/Strings.php:54
+msgid "Translation job aborted with %s string remaining"
 msgid_plural "Translation job aborted with %s strings remaining"
-msgstr[0] "El trabajo de traducción se abortó con una cadena restante"
-msgstr[1] "El trabajo de traducción se abortó con %s cadenas restantes"
+msgstr[0] "Trabajo de traducción cancelado con %s cadena pendiente"
+msgstr[1] "Trabajo de traducción cancelado con %s cadenas pendientes"
 
 #: src/js/Strings.php:51
 msgid "Translation progress %s%%"
@@ -185,10 +204,10 @@ msgstr "%s cadenas de una sola fuente."
 msgid "Strings up to date with %s"
 msgstr "Cadenas al día con %s"
 
-#: src/js/Strings.php:33 pub/js/min/editor.js:1
-msgid "1 string marked Fuzzy"
+#: src/js/Strings.php:33
+msgid "%s string marked Fuzzy"
 msgid_plural "%s strings marked Fuzzy"
-msgstr[0] "1 cadena marcada como borrosa"
+msgstr[0] "%s cadena marcada como borrosa"
 msgstr[1] "%s cadenas marcadas como borrosas"
 
 #: tpl/admin/config/apis.php:115
@@ -306,16 +325,10 @@ msgid "Move %s"
 msgstr "Mover %s"
 
 #: src/admin/file/MoveController.php:89
-msgid "One file could not be moved"
-msgid_plural "%u files could not be moved"
-msgstr[0] "No se pudo mover un archivo"
-msgstr[1] "%u no se pudieron mover unos archivos"
-
-#: src/admin/file/MoveController.php:85
-msgid "File moved"
-msgid_plural "%u files moved"
-msgstr[0] "Archivo movido"
-msgstr[1] "%u archivos movidos"
+msgid "%s file could not be moved"
+msgid_plural "%s files could not be moved"
+msgstr[0] "No se ha podido mover %s archivo"
+msgstr[1] "No se han podido mover %s archivos"
 
 #: src/admin/file/BaseController.php:107
 msgid "Relocate"
@@ -361,7 +374,7 @@ msgstr "Sólo lectura"
 msgid "Scan JavaScript files with extensions:"
 msgstr "Explorar archivos JavaScript con extensiones:"
 
-#: src/admin/init/InitPoController.php:241
+#: src/admin/init/InitPoController.php:243
 msgid "Assign template"
 msgstr "Asignar plantilla"
 
@@ -419,7 +432,7 @@ msgstr "Los archivos de este idioma los pueden modificar o borrar las actualizac
 msgid "WordPress updates"
 msgstr "Actualizaciones de WordPress"
 
-#: tpl/admin/file/info-pot.php:19 tpl/admin/file/info-po.php:23
+#: tpl/admin/file/info-pot.php:21 tpl/admin/file/info-po.php:23
 #: tpl/admin/file/info-mo.php:18
 msgid "File size"
 msgstr "Tamaño del archivo"
@@ -564,7 +577,7 @@ msgctxt "Plural category"
 msgid "Zero"
 msgstr "Cero"
 
-#: tpl/admin/file/info.php:113 src/admin/init/InitPoController.php:319
+#: tpl/admin/file/info.php:113 src/admin/init/InitPoController.php:321
 msgid "What's this?"
 msgstr "¿Qué es esto?"
 
@@ -581,13 +594,13 @@ msgstr "el más largo es %s"
 msgid "Maximum line length (zero disables wrapping)"
 msgstr "Máxima longitud de línea (cero desactiva el ajuste del texto) "
 
-#. Translators: Where %2$s is the maximum size of a file that will be included
-#. and %3$s is the largest encountered
+#. Translators: (1) Number of files (2) Maximum size of file that will be
+#. included (3) Size of the largest encountered
 #: src/ajax/SyncController.php:86
-msgid "One file has been skipped because it's %3$s. (Max is %2$s). Check all strings are present before saving."
-msgid_plural "%s files over %2$s have been skipped. (Largest is %3$s). Check all strings are present before saving."
-msgstr[0] "Se ha omitido un archivo debido a que pesa %3$s. (El máximo es %2$s). Revisa todas las cadenas presentes antes de guardar."
-msgstr[1] "%s archivos de han omitido debido a que pesan %2$s. (El máximo es %3$s). Revisa todas las cadenas presentes antes de guardar."
+msgid "%1$s file has been skipped because it's %3$s. (Max is %2$s). Check all strings are present before saving."
+msgid_plural "%1$s files over %2$s have been skipped. (Largest is %3$s). Check all strings are present before saving."
+msgstr[0] "Ha sido omitido %1$s archivo porque tiene %3$s. (El máximo es %2$s). Antes de guardar, comprueba que todas las cadenas están presentes."
+msgstr[1] "Han sido omitido %1$s archivos porque tiene %3$s. (El máximo es %2$s). Antes de guardar, comprueba que todas las cadenas están presentes."
 
 #: src/admin/bundle/ConfController.php:95
 msgid "Child theme declares the same Text Domain as the parent theme"
@@ -628,12 +641,6 @@ msgstr "Uno"
 msgctxt "Plural category"
 msgid "All forms"
 msgstr "Todos los formularios"
-
-#: tpl/admin/file/info-pot.php:29
-msgid "1 word"
-msgid_plural "%s words"
-msgstr[0] "1 palabra"
-msgstr[1] "%s palabras"
 
 #: tpl/admin/config/version.php:28
 msgid "You're running a development snapshot of Loco Translate"
@@ -707,12 +714,13 @@ msgstr "Plantilla faltante"
 msgid "Strings will be extracted to:"
 msgstr "Las cadenas se extraerán a:"
 
-#. Translators: Where %2$s is the size of a file
+#. Translators: (1) Number of files excluded (2) the maximum size of file that
+#. was included
 #: tpl/admin/init/init-pot.php:24
-msgid "Excludes one file over %2$s"
-msgid_plural "Excludes %s files over %2$s"
-msgstr[0] "Excluye un archivo de más de %2$s"
-msgstr[1] "Excluye %s archivos de más de %2$s"
+msgid "Excludes %1$s file over %2$s"
+msgid_plural "Excludes %1$s files over %2$s"
+msgstr[0] "Excluye %1$s archivo de más de %2$s"
+msgstr[1] "Excluye %1$s archivos de más de %2$s"
 
 #. Translators: Where %s is the size of a file
 #: tpl/admin/init/init-pot.php:16
@@ -862,7 +870,7 @@ msgstr "El archivo %s tiene permisos de escritura"
 msgid "File doesn't exist"
 msgstr "El archivo no existe"
 
-#: tpl/admin/file/info-pot.php:25
+#: tpl/admin/file/info-pot.php:27
 msgid "Last extracted"
 msgstr "Último extraído"
 
@@ -920,7 +928,7 @@ msgstr "Traducciones compiladas"
 msgid "Last translation"
 msgstr "Última traducción"
 
-#: tpl/admin/file/info-pot.php:22 tpl/admin/file/info-po.php:26
+#: tpl/admin/file/info-pot.php:24 tpl/admin/file/info-po.php:26
 #: tpl/admin/file/info-mo.php:21
 msgid "File modified"
 msgstr "Archivo modificado"
@@ -1340,10 +1348,10 @@ msgstr[1] "%u dominios configurados no tienen cadenas traducibles"
 #. translators: 1: Number of strings; 2: Text Domain; e.g. 100 strings
 #. extracted from source code for "loco-translate"
 #: src/package/Debugger.php:187
-msgid "One string extracted from source code for \"%2$s\""
-msgid_plural "%s strings extracted from source code for \"%s\""
-msgstr[0] "Una cadena traducible en el código fuente para \"%2$s\""
-msgstr[1] "%s cadenas traducibles en el código fuente para \"%s\""
+msgid "%1$s string extracted from source code for \"%2$s\""
+msgid_plural "%1$s strings extracted from source code for \"%2$s\""
+msgstr[0] "Extraída %1$s cadena del código fuente para \"%2$s\""
+msgstr[1] "Extraídas %1$s cadenas del código fuente para \"%2$s\""
 
 #: src/package/Core.php:87 src/admin/bundle/LocaleController.php:136
 msgid "WordPress Core"
@@ -1478,7 +1486,7 @@ msgctxt "Editor"
 msgid "%s translation"
 msgstr "%s traducción"
 
-#: tpl/admin/file/info-pot.php:28 src/js/Strings.php:123
+#: tpl/admin/file/info-pot.php:30 src/js/Strings.php:123
 msgctxt "Editor"
 msgid "Source text"
 msgstr "Texto de origen"
@@ -1602,7 +1610,7 @@ msgstr "Noticia"
 msgid "Error"
 msgstr "Error"
 
-#: src/data/Permissions.php:157
+#: src/data/Permissions.php:155
 msgctxt "User role"
 msgid "Translator"
 msgstr "Traductor"
@@ -1628,11 +1636,11 @@ msgstr "%s ya existe en esta carpeta"
 msgid "Template file created"
 msgstr "Fichero de plantilla creado"
 
-#: src/gettext/Compiler.php:88
+#: src/gettext/Compiler.php:107
 msgid "PO file saved, but MO file compilation failed"
 msgstr "Fichero PO guardado, pero la compilación del fichero MO ha fallado"
 
-#: src/gettext/Compiler.php:190
+#: src/gettext/Compiler.php:247
 msgid "PO file saved and MO file compiled"
 msgstr "Fichero PO guardado y fichero MO compilado"
 
@@ -1672,29 +1680,30 @@ msgstr "El fichero plantilla ya existe"
 msgid "New template"
 msgstr "Nueva plantilla"
 
-#: src/admin/init/InitPoController.php:231
+#: src/admin/init/InitPoController.php:233
 msgid "Skip template"
 msgstr "Saltar plantilla"
 
-#: src/admin/init/InitPoController.php:225
-msgid "1 source file will be scanned for translatable strings"
+#. translators: Were %s is number of source files that will be scanned
+#: src/admin/init/InitPoController.php:227
+msgid "%s source file will be scanned for translatable strings"
 msgid_plural "%s source files will be scanned for translatable strings"
-msgstr[0] "1 fichero de la fuente original será escaneado para obtener las cadenas traducibles"
+msgstr[0] "%s fichero de la fuente original será escaneado para obtener las cadenas traducibles"
 msgstr[1] "%s ficheros de la fuente original será escaneado para obtener las cadenas traducibles"
 
 #. translators: 1: Number of strings; 2: Name of POT file; e.g. "100 strings
 #. found in file.pot"
-#: src/admin/init/InitPoController.php:197
-msgid "One string found in %2$s"
-msgid_plural "%s strings found in %s"
-msgstr[0] "Una cadena encontrada en %2$s"
-msgstr[1] "%s cadenas encontradas en %s"
+#: src/admin/init/InitPoController.php:198
+msgid "%1$s string found in %2$s"
+msgid_plural "%1$s strings found in %2$s"
+msgstr[0] "Encontrada %1$s cadena en %2$s"
+msgstr[1] "Encontradas %1$s cadenas en %2$s"
 
-#: src/admin/init/InitPoController.php:111
+#: src/admin/init/InitPoController.php:112
 msgid "Initializing new translations in unknown set"
 msgstr "Inicializando nuevas traducciones en un conjunto desconocido"
 
-#: src/admin/init/InitPoController.php:107
+#: src/admin/init/InitPoController.php:108
 msgid "Initializing new translations in \"%s\""
 msgstr "Inicializando nuevas traducciones en \"%s\""
 
@@ -1774,10 +1783,10 @@ msgid "Editing %1$s in %2$s"
 msgstr "Editando %1$s de %2$s"
 
 #: src/admin/file/DeleteController.php:99
-msgid "One dependent file will also be deleted"
-msgid_plural "%u dependent files will also be deleted"
-msgstr[0] "También se borrará un archivo dependiente"
-msgstr[1] "También se borrará %u archivos dependientes"
+msgid "%s dependent file will also be deleted"
+msgid_plural "%s dependent files will also be deleted"
+msgstr[0] "También se borrará %s archivo dependiente"
+msgstr[1] "También se borrará %s archivos dependientes"
 
 #: src/admin/file/DeleteController.php:76
 #: src/admin/file/DeleteController.php:94
@@ -1838,7 +1847,7 @@ msgid "Site options"
 msgstr "Opciones del sitio"
 
 #: tpl/admin/init/init-pot.php:40 src/admin/bundle/ViewController.php:132
-#: src/admin/init/InitPoController.php:216
+#: src/admin/init/InitPoController.php:217
 msgid "Create template"
 msgstr "Crear tema"
 
@@ -1848,15 +1857,15 @@ msgstr "Editar tema"
 
 #: src/admin/bundle/ViewController.php:98
 #: src/admin/init/InitPoController.php:16
-#: src/admin/init/InitPoController.php:114
+#: src/admin/init/InitPoController.php:115
 #: src/admin/file/BaseController.php:127
 msgid "New language"
 msgstr "Nuevo idioma"
 
 #: src/admin/bundle/SetupController.php:114
-msgid "One file can't be matched to a known set of strings"
+msgid "%s file can't be matched to a known set of strings"
 msgid_plural "%s files can't be matched to a known set of strings"
-msgstr[0] "Un archivo no puede ser comparado con un conjunto conocido de cadenas"
+msgstr[0] "%s archivo no puede ser comparado con un conjunto conocido de cadenas"
 msgstr[1] "%s archivos no pueden ser comparados con un conjunto conocido de cadenas"
 
 #: src/admin/bundle/SetupController.php:35
@@ -1920,7 +1929,7 @@ msgstr "Loco Translate %s"
 #: src/admin/bundle/BaseController.php:108
 #: src/admin/bundle/LocaleController.php:34
 #: src/admin/bundle/ViewController.php:25
-#: src/admin/init/InitPoController.php:26
+#: src/admin/init/InitPoController.php:25
 #: src/admin/init/InitPotController.php:25 src/admin/RootController.php:12
 #: src/admin/config/BaseController.php:41
 #: src/admin/list/LocalesController.php:24 src/admin/list/BaseController.php:50
@@ -1961,7 +1970,7 @@ msgid "Filter translations"
 msgstr "Filtrar traducciones"
 
 #: tpl/admin/bundle/inc-po-table.php:42 tpl/admin/bundle/conf.php:65
-#: tpl/admin/file/info-pot.php:16 tpl/admin/file/edit-pot.php:10
+#: tpl/admin/file/info-pot.php:18 tpl/admin/file/edit-pot.php:10
 #: tpl/admin/file/view-pot.php:9
 msgid "Template file"
 msgstr "Archivo de la plantilla"
@@ -2001,16 +2010,16 @@ msgstr "Atrás"
 msgid "Your changes will be lost if you continue without saving"
 msgstr "Tus cambios se perderán si decides continuar sin guardar"
 
-#: src/js/Strings.php:29 pub/js/min/editor.js:1
-msgid "1 obsolete string removed"
+#: src/js/Strings.php:29
+msgid "%s obsolete string removed"
 msgid_plural "%s obsolete strings removed"
-msgstr[0] "1 cadena obsoleta fué eliminada"
+msgstr[0] "%s cadena obsoleta fue eliminada"
 msgstr[1] "%s cadenas obsoletas fueron eliminadas"
 
-#: src/js/Strings.php:25 pub/js/min/editor.js:1
-msgid "1 new string added"
+#: src/js/Strings.php:25
+msgid "%s new string added"
 msgid_plural "%s new strings added"
-msgstr[0] "1 nueva cadena fué agregada"
+msgstr[0] "%s nueva cadena fue agregada"
 msgstr[1] "%s nueva cadenas fueron agregadas"
 
 #: src/js/Strings.php:40
@@ -2026,7 +2035,7 @@ msgid "Merged from %s"
 msgstr "Se mezcló desde %s"
 
 #. translators: Where %s is either PO or POT
-#: src/gettext/Compiler.php:194
+#: src/gettext/Compiler.php:251
 msgid "%s file saved"
 msgstr "Archivo %s guardado"
 
@@ -2051,21 +2060,15 @@ msgstr "Loco Translate"
 msgid "Loco, Translation Management"
 msgstr "Administrador de traducciones Loco"
 
-#: src/js/Strings.php:95 src/gettext/Metadata.php:208
+#: src/js/Strings.php:95 src/gettext/Metadata.php:209
 msgid "%s untranslated"
 msgstr "%s sin traducir"
 
-#: src/js/Strings.php:91 src/gettext/Metadata.php:205
+#: src/js/Strings.php:91 src/gettext/Metadata.php:206
 msgid "%s fuzzy"
 msgstr "%s confusas"
 
-#: src/js/Strings.php:83 src/gettext/Metadata.php:193 pub/js/min/editor.js:1
-msgid "1 string"
-msgid_plural "%s strings"
-msgstr[0] "1 cadena"
-msgstr[1] "%s cadenas"
-
-#: src/js/Strings.php:87 src/gettext/Metadata.php:203
+#: src/js/Strings.php:87 src/gettext/Metadata.php:204
 msgid "%s%% translated"
 msgstr "%s%% traducidas"
 

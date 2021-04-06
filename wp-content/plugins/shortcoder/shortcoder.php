@@ -4,13 +4,13 @@ Plugin Name: Shortcoder
 Plugin URI: https://www.aakashweb.com/wordpress-plugins/shortcoder/
 Description: Shortcoder plugin allows to create a custom shortcodes for HTML, JavaScript and other snippets. Now the shortcodes can be used in posts/pages and the snippet will be replaced in place.
 Author: Aakash Chakravarthy
-Version: 5.3.4
+Version: 5.4
 Author URI: https://www.aakashweb.com/
 Text Domain: shortcoder
 Domain Path: /languages
 */
 
-define( 'SC_VERSION', '5.3.4' );
+define( 'SC_VERSION', '5.4' );
 define( 'SC_PATH', plugin_dir_path( __FILE__ ) ); // All have trailing slash
 define( 'SC_URL', plugin_dir_url( __FILE__ ) );
 define( 'SC_ADMIN_URL', trailingslashit( plugin_dir_url( __FILE__ ) . 'admin' ) );
@@ -48,6 +48,7 @@ final class Shortcoder{
 
     public static function execute_shortcode( $atts, $enclosed_content = null ){
 
+        $atts = (array) $atts;
         $shortcodes = self::get_shortcodes();
 
         if( empty( $shortcodes ) ){
@@ -204,7 +205,7 @@ final class Shortcoder{
 
         $params = array_change_key_case( $params, CASE_LOWER );
 
-        preg_match_all('/%%([a-zA-Z0-9_]+)\:?(.*?)%%/', $content, $matches);
+        preg_match_all('/%%([a-zA-Z0-9_\-]+)\:?(.*?)%%/', $content, $matches);
 
         $cp_tags = $matches[0];
         $cp_names = $matches[1];
@@ -219,6 +220,15 @@ final class Shortcoder{
 
             if( array_key_exists( $name, $params ) ){
                 $value = $params[ $name ];
+
+                // Handle scenario when the attributes are added with paragraph tags by autop
+                if( substr( $value, 0, 4 ) == '</p>' ){
+                    $value = substr( $value, 4 );
+                    if( substr( $value, -3 ) == '<p>' ){
+                        $value = substr( $value, 0, -3 );
+                    }
+                }
+
             }
 
             if( empty( $value ) ){

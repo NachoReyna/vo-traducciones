@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Shortcoder — Create Shortcodes for Anything - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-09 15:41:24+0000\n"
+"PO-Revision-Date: 2021-03-18 14:16:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Language: es_MX\n"
 "Project-Id-Version: Plugins - Shortcoder — Create Shortcodes for Anything - Stable (latest release)\n"
 
-#: shortcoder.php:315
+#: shortcoder.php:325
 msgid "Post slug"
 msgstr "Slug de la entrada"
 
@@ -19,131 +19,135 @@ msgstr "Slug de la entrada"
 msgid "Get updates"
 msgstr "Obtener actualizaciones"
 
-#: shortcoder.php:346 shortcoder.php:349
+#: shortcoder.php:356 shortcoder.php:359
 msgid "Shortcode enclosed content"
 msgstr "Contenido encerrado entre shotcodes"
 
-#: shortcoder.php:342
+#: shortcoder.php:352
 msgid "Year - 2 digit"
 msgstr "Año: 2 dígitos"
 
-#: shortcoder.php:341
+#: shortcoder.php:351
 msgid "Year"
 msgstr "Año"
 
-#: shortcoder.php:340
+#: shortcoder.php:350
 msgid "Month - words - full form"
 msgstr "Mes: palabras (forma completa)"
 
-#: shortcoder.php:339
+#: shortcoder.php:349
 msgid "Month - words - short form"
 msgstr "Mes: palabras (forma corta)"
 
-#: shortcoder.php:338
+#: shortcoder.php:348
 msgid "Month - leading zeros"
 msgstr "Mes - ceros a la izquierda"
 
-#: shortcoder.php:337
+#: shortcoder.php:347
 msgid "Month"
 msgstr "Mes"
 
-#: shortcoder.php:336
+#: shortcoder.php:346
 msgid "Day - words - full form"
 msgstr "Día: palabras (forma completa)"
 
-#: shortcoder.php:335
+#: shortcoder.php:345
 msgid "Day - words - short form"
 msgstr "Día: palabras (forma corta)"
 
-#: shortcoder.php:334
+#: shortcoder.php:344
 msgid "Day - leading zeros"
 msgstr "Día - ceros iniciales"
 
-#: shortcoder.php:333
+#: shortcoder.php:343
 msgid "Day"
 msgstr "Día"
 
-#: shortcoder.php:330
+#: shortcoder.php:340
 msgid "Date parameters"
 msgstr "Parámetros de la fecha"
 
-#: shortcoder.php:326
+#: shortcoder.php:336
 msgid "RSS 2.0 feed URL"
 msgstr "URL del feed RSS 2.0"
 
-#: shortcoder.php:325
+#: shortcoder.php:335
 msgid "Atom feed URL"
 msgstr "URL del feed de Atom"
 
-#: shortcoder.php:324
+#: shortcoder.php:334
 msgid "Active theme's directory"
 msgstr "Directorio de temas activos"
 
-#: shortcoder.php:323
+#: shortcoder.php:333
 msgid "Active theme's stylesheet URL"
 msgstr "URL de la hoja de estilo del tema activo"
 
-#: shortcoder.php:322
+#: shortcoder.php:332
 msgid "WordPress version"
 msgstr "Versión de WordPress"
 
-#: shortcoder.php:321
+#: shortcoder.php:331
 msgid "Site character set"
 msgstr "Conjunto de caracteres del sitio"
 
-#: shortcoder.php:320
+#: shortcoder.php:330
 msgid "WordPress URL"
 msgstr "URL de WordPress"
 
-#: shortcoder.php:319
+#: shortcoder.php:329
 msgid "Site URL"
 msgstr "URL del sitio"
 
-#: shortcoder.php:318
+#: shortcoder.php:328
 msgid "Site description"
 msgstr "Descripción del sitio"
 
-#: shortcoder.php:317
+#: shortcoder.php:327
 msgid "Site title"
 msgstr "Título del sitio"
 
-#: shortcoder.php:314
+#: shortcoder.php:324
 msgid "Post comments count"
 msgstr "Recuento de comentarios de la entrada"
 
-#: shortcoder.php:313
+#: shortcoder.php:323
 msgid "Post modified date"
 msgstr "Fecha de modificación de la entrada"
 
-#: shortcoder.php:311
+#: shortcoder.php:322
+msgid "Post date"
+msgstr "Fecha de la entrada"
+
+#: shortcoder.php:321
 msgid "Post author"
 msgstr "Autor de la entrada"
 
-#: shortcoder.php:310
+#: shortcoder.php:320
 msgid "Post excerpt"
 msgstr "Extracto de la entrada"
 
-#: shortcoder.php:309
+#: shortcoder.php:319
 msgid "Post featured image URL"
 msgstr "URL de la imagen destacada de la entrada"
 
-#: shortcoder.php:308
+#: shortcoder.php:318
 msgid "Post ID"
 msgstr "ID de la entrada"
 
-#: shortcoder.php:306
+#: shortcoder.php:316
 msgid "Short URL of the post/location"
 msgstr "URL corta de la entrada o ubicación"
 
-#: shortcoder.php:305
+#: shortcoder.php:315
 msgid "Title of the post/location"
 msgstr "Título de la entrada o ubicación"
 
-#: shortcoder.php:304
+#: shortcoder.php:314
 msgid "URL of the post/location"
 msgstr "URL de la entrada o ubicación"
 
-#: shortcoder.php:301
+#: shortcoder.php:311
 msgid "WordPress information"
 msgstr "Información de WordPress"
 
@@ -375,35 +379,39 @@ msgstr "Shortcoder"
 msgid "Shortcode"
 msgstr "Shortcode"
 
-#: admin/edit.php:286
+#: admin/edit.php:267
 msgid "Only alphabets, numbers, underscore and hyphens are allowed. Cannot be empty."
 msgstr "Solo se permiten letras, números, guiones bajos y guiones. No puede estar vacío."
 
-#: admin/edit.php:285
+#: admin/edit.php:266
 msgid "Insert custom field"
 msgstr "Insertar campo personalizado"
 
-#: admin/edit.php:283
+#: admin/edit.php:264
 msgid "Enter custom field name"
 msgstr "Introduce el nombre del campo personalizado"
 
-#: admin/edit.php:282
+#: admin/edit.php:263
 msgid "Custom Fields"
 msgstr "Campos personalizados"
 
-#: admin/edit.php:279
-msgid "Only alphabets, numbers and underscores are allowed. Custom parameters are case insensitive"
-msgstr "Sólo se permiten letras, números y guiones bajos. Los parámetros personalizados no son sensibles a mayúsculas y minúsculas"
+#: admin/edit.php:260
+msgid "Only alphabets, numbers, underscores and hyphens are allowed. Custom parameters are case insensitive"
+msgstr "Solo se permiten letras, números y guiones bajos. Los parámetros personalizados no distinguen mayúsculas y minúsculas"
 
-#: admin/edit.php:278
+#: admin/edit.php:259
 msgid "Insert parameter"
 msgstr "Insertar parámetro"
 
-#: admin/edit.php:274
+#: admin/edit.php:257
+msgid "Default value"
+msgstr "Valor predeterminado"
+
+#: admin/edit.php:255
 msgid "Enter custom parameter name"
 msgstr "Introduce el nombre del parámetro personalizado"
 
-#: admin/edit.php:273
+#: admin/edit.php:254
 msgid "Custom parameter"
 msgstr "Parámetro personalizado"
 
@@ -455,7 +463,7 @@ msgstr "Nombre del shortcode a mostrar cuando se enumera"
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
-#: admin/edit.php:338
+#: admin/edit.php:319
 msgid "Buy me a coffee !"
 msgstr "¡Cómprame un café!"
 

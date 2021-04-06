@@ -401,7 +401,7 @@ Template Name: page presupuestador
   $header .= "Reply-To: V.O. Traducciones <vo@vo-traducciones.com>\r\n";
   $header .= "Content-type: text/html; charset=UTF-8\r\n";
 
-  if (wp_mail('vo@vo-traducciones.com, c.vega@vo-traducciones.com, m.pita@vo-traducciones.com, ricardo.perezdecastro@gmail.com, mark.schuback@gmail.com, ignacioreyna56@gmail.com', $subject, $msg, $header)) {
+  if (wp_mail('vo@vo-traducciones.com, c.vega@vo-traducciones.com, m.pita@vo-traducciones.com, ricardo.perezdecastro@gmail.com, ignacioreyna56@gmail.com', $subject, $msg, $header)) {
   $correoSent = 'ok';
   }else{
   $correoNotSent='Error correo para Administrador no entregado';
@@ -523,7 +523,7 @@ Template Name: page presupuestador
         $header .= "Reply-To: V.O. Traducciones <vo@vo-traducciones.com>\r\n";
         $header .= "Content-type: text/html; charset=UTF-8\r\n";
         $header .= "Content-Transfer-Encoding: 8bit\r\n";
-        if (wp_mail('vo@vo-traducciones.com, c.vega@vo-traducciones.com, m.pita@vo-traducciones.com, ricardo.perezdecastro@gmail.com, mark.schuback@gmail.com, ignacioreyna56@gmail.com', $subject, $msg, $header,$adjtunto)) {
+        if (wp_mail('vo@vo-traducciones.com, c.vega@vo-traducciones.com, m.pita@vo-traducciones.com, ricardo.perezdecastro@gmail.com, ignacioreyna56@gmail.com', $subject, $msg, $header,$adjtunto)) {
             $contact = 'Solicitud y archivo(s) enviados correctamente';
         } else {
             $contact = 'No hemos podido mandar su mensaje, por favor, inténtelo de nuevo.';
@@ -653,7 +653,7 @@ Template Name: page presupuestador
                 $header .= "Reply-To: V.O. Traducciones <vo@vo-traducciones.com>\r\n";
                 $header .= "Content-type: text/html; charset=UTF-8\r\n";
                 $header .= "Content-Transfer-Encoding: 8bit\r\n";
-              if (wp_mail('vo@vo-traducciones.com, c.vega@vo-traducciones.com, m.pita@vo-traducciones.com, ricardo.perezdecastro@gmail.com, mark.schuback@gmail.com, ignacioreyna56@gmail.com', $subject, $msg, $header,$adjtunto)) {
+              if (wp_mail('vo@vo-traducciones.com, c.vega@vo-traducciones.com, m.pita@vo-traducciones.com, ricardo.perezdecastro@gmail.com,  ignacioreyna56@gmail.com', $subject, $msg, $header,$adjtunto)) {
                 $contact = ' Solicitud y archivo(s) enviados correctamente';
               } else {
                 $contact = 'No hemos podido mandar su mensaje, por favor, inténtelo de nuevo.';

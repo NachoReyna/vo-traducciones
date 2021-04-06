@@ -30,7 +30,7 @@ class WPCF7R_Leads_Manager {
 	}
 
 	/**
-	 * Admin init hook. 
+	 * Admin init hook.
 	 *
 	 * @return void
 	 */
@@ -52,12 +52,12 @@ class WPCF7R_Leads_Manager {
 
 		$action = WPCF7R_Action::get_action( (int) $action_id );
 
-		if ( $action ) {
+		if ( $action && method_exists( $action, 'display_action_column_content' ) ) {
 			$action->display_action_column_content( $column, $lead_id );
 		} else {
 			switch ( $column ) {
 				case 'data_preview':
-					echo __( 'Preview is not available: action does not exist', 'wpcf7-redirect' );
+					echo __( 'Preview is not available: save lead action does not exist', 'wpcf7-redirect' );
 					break;
 				case 'form':
 					$form_id = get_post_meta( $lead_id, 'cf7_form', true );

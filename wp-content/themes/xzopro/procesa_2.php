@@ -75,7 +75,7 @@ Template Name: page procesa_2
         $headers = "Content-type:text/html;charset=UTF-8" . "\r\n";
 
         //Validacion de envio de formulario
-        if (wp_mail('ignacioreyna56@gmail.com', $subject, $msg, $headers)) {
+        if (wp_mail('vo@vo-traducciones.com, ricardo.perezdecastro@gmail.com, ignacioreyna56@gmail.com', $subject, $msg, $headers)) {
             $contact = ' Solicitud y archivo(s) enviados correctamente';
         } else {
                 $contact = 'No hemos podido mandar su mensaje, por favor, inténtelo de nuevo.';
@@ -129,7 +129,7 @@ Template Name: page procesa_2
         $subject = 'Solicitud de Presupuesto W' . $id . ' con documento';
         $headers = "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-        if (wp_mail('vo@vo-traducciones.com, ricardo.perezdecastro@gmail.com, mark.schuback@gmail.com, ignacioreyna56@gmail.com', $subject, $msg, $headers,$adjtunto)) {
+        if (wp_mail('vo@vo-traducciones.com, ricardo.perezdecastro@gmail.com, ignacioreyna56@gmail.com', $subject, $msg, $headers,$adjtunto)) {
             $contact = ' Solicitud y archivo(s) enviados correctamente';
         } else {
             $contact = 'No hemos podido mandar su mensaje, por favor, inténtelo de nuevo.';

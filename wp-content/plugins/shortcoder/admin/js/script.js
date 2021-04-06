@@ -3,25 +3,12 @@ $(document).ready(function(){
 
     var init = function(){
 
-        if(window.SC_EDITOR == 'code'){
+        if(typeof window.SC_EDITOR !== 'undefined' && typeof window.SC_EDITOR.active !== 'undefined' && window.SC_EDITOR.active == 'code'){
 
-            if(typeof window.CodeMirror === 'function' && typeof CodeMirror.fromTextArea === 'function'){
-                load_cm_sc_mode();
+            var codemirror_loaded = load_codemirror();
 
-                window.sc_cm = CodeMirror.fromTextArea(document.getElementById('sc_content'), {
-                    lineNumbers: true,
-                    mode: 'sc_mode',
-                    indentWithTabs: false,
-                    lineWrapping: true,
-                    styleActiveLine: true,
-                    htmlMode: true
-                });
-                sc_cm.setSize( null, 500 );
-                sc_cm.on('change', function(){
-                    sc_cm.save();
-                });
-            }else{
-                $('.sc_editor_toolbar').append('<p>Unable to load code editor. Please check console for errors or try deactivating other plugin/themes.</p>');
+            if(!codemirror_loaded){
+                $('.sc_editor_toolbar').append('<p>Unable to load code editor. Please check browser console (press Ctrl+Shift+J) for errors or try deactivating any code editor related plugin/themes.</p>');
             }
 
             $('.sc_editor_toolbar').appendTo('.sc_cm_menu');
@@ -57,8 +44,7 @@ $(document).ready(function(){
     }
 
     var insert_in_editor = function(data){
-        console.log(data);
-        if(window.SC_EDITOR == 'code'){
+        if(window.SC_EDITOR.active == 'code'){
             var doc = window.sc_cm.getDoc();
             doc.replaceRange(data, doc.getCursor());
         }else{
@@ -78,29 +64,73 @@ $(document).ready(function(){
         document.body.removeChild(el);
     };
 
-    var load_cm_sc_mode = function(){
-        
-        if(typeof CodeMirror.overlayMode === 'undefined'){
+    var load_codemirror = function(){
+
+        if(typeof window.SC_CODEMIRROR === 'undefined'){
+            console.error('Shortcoder: Codemirror settings are not loaded');
             return false;
         }
 
-        CodeMirror.defineMode('sc_mode', function(config, parserConfig){
-            var mustacheOverlay = {
-                token: function(stream, state){
-                    if(stream.match(/\$\$[a-z0-9A-Z:_]+\$\$/)){
-                        return 'number sc_param';
-                    }
-                    if(stream.match(/%%.*?%%/)){
-                        return 'atom sc_param';
-                    }
-                    if(stream.match(/\[(.+?)?\](?:(.+?)?\[\/\])?/)){
-                        return 'string sc_param';
-                    }
-                    stream.next();
-                }
-            };
-            return CodeMirror.overlayMode(CodeMirror.getMode(config, parserConfig.backdrop || 'htmlmixed'), mustacheOverlay);
+        if(typeof window.wp === 'undefined' || typeof window.wp.codeEditor === 'undefined'){
+            console.error('Shortcoder: codeEditor namespace is not available');
+            return false;
+        }
+
+        var sc_mode_loaded = load_cm_sc_mode();
+        var mode = sc_mode_loaded ? 'sc_mode' : 'htmlmixed';
+
+        wp.codeEditor.defaultSettings.codemirror['mode'] = mode;
+
+        var editor = wp.codeEditor.initialize(document.getElementById('sc_content'), window.SC_CODEMIRROR);
+
+        editor.codemirror.setSize( null, 500 );
+        editor.codemirror.on('change', function(){
+            editor.codemirror.save();
         });
+
+        window.sc_cm = editor.codemirror;
+
+        return true;
+
+    }
+
+    var load_cm_sc_mode = function(){
+
+        if(typeof wp.CodeMirror === 'undefined'){
+            console.error('Shortcoder: CodeMirror library is not loaded/available');
+            return false;
+        }
+
+        if(typeof wp.CodeMirror.overlayMode === 'undefined'){
+            console.error('Shortcoder: CodeMirror overlay method is not available');
+            return false;
+        }
+
+        try{
+            wp.CodeMirror.defineMode('sc_mode', function(config, parserConfig){
+                var sc_overlay = {
+                    token: function(stream, state){
+                        if(stream.match(/\$\$[a-z0-9A-Z:_]+\$\$/)){
+                            return 'number sc_param';
+                        }
+                        if(stream.match(/%%.*?%%/)){
+                            return 'atom sc_param';
+                        }
+                        if(stream.match(/\[(.+?)?\](?:(.+?)?\[\/\])?/)){
+                            return 'string sc_param';
+                        }
+                        stream.next();
+                    }
+                };
+                return wp.CodeMirror.overlayMode(wp.CodeMirror.getMode(config, parserConfig.backdrop || 'htmlmixed'), sc_overlay);
+            });
+        }catch(error){
+            console.error('Shortcoder: Unable to load shortcoder mode.', error);
+            return false;
+        }
+
+        return true;
+
     }
 
     var close_params_list = function(){

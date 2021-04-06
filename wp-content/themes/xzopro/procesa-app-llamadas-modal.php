@@ -39,7 +39,7 @@ Template Name: page procesa modals
     $headers = "Content-type:text/html;charset=UTF-8" . "\r\n";
 
     
-    if (wp_mail('vo@vo-traducciones.com, ricardo.perezdecastro@gmail.com, mark.schuback@gmail.com, ignacioreyna56@gmail.com', $subject, $msg, $headers,$adjtunto)) {
+    if (wp_mail('vo@vo-traducciones.com, ricardo.perezdecastro@gmail.com, ignacioreyna56@gmail.com', $subject, $msg, $headers,$adjtunto)) {
         $contact = ' Solicitud y archivo(s) enviados correctamente';
     } else {
         $contact = 'No hemos podido mandar su mensaje, por favor, inténtelo de nuevo.';

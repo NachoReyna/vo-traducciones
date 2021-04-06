@@ -2,8 +2,8 @@
 Tags: contact form 7 redirect, contact form 7 thank you page, redirect cf7, redirect contact form 7, contact form 7 success page, cf7 redirect, registration form, mailchimp, login form, conditional redirect, cms integration, conversions, save leads, paypal
 Contributors: yuvalsabar, regevlio
 Requires at least: 5.1.0
-Tested up to: 5.6.1
-Stable tag: 2.3.4
+Tested up to: 5.7
+Stable tag: 2.3.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -77,6 +77,11 @@ No. One of the reasons we developed this plugin, is because on_send_ok is now de
 5. Extensions tab
 
 == Changelog ==
+
+= 2.3.5 =
+* Fixed preview of checkbox fields on leads list
+* Fixed nonce issues on extensions page
+* Fixed send file to API [{fieldname}-filename] [{fieldname}-base_64_file] [{fieldname}-path]
 
 = 2.3.4 =
 * Security updates

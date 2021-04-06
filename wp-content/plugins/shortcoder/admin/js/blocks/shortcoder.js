@@ -24,7 +24,8 @@
                 'value': props.attributes.text,
                 'style': {
                     'font-family': 'monospace',
-                    'font-size': '15px'
+                    'font-size': '15px',
+                    'padding': '10px'
                 }
             }),
             el( 'button', {

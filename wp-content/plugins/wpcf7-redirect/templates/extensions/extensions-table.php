@@ -6,6 +6,8 @@
 defined( 'ABSPATH' ) || exit;
 
 $extensions = $this->get_extensions();
+
+wp_nonce_field( 'manage_cf7_redirect', '_wpcf7nonce' );
 ?>
 
 <div class="extensions-list">

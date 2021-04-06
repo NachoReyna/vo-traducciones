@@ -123,5 +123,7 @@ echo '</div>';
 
 <div class="footer_thanks">Thanks for using <a href="https://www.aakashweb.com/wordpress-plugins/shortcoder/" target="_blank">Shortcoder</a> &bull; Please <a href="https://wordpress.org/support/plugin/shortcoder/reviews/?rate=5#new-post" target="_blank">rate 5 stars</a> and spread the word.</div>
 
+<?php do_action( 'sc_do_insert_popup_footer' ); ?>
+
 </body>
 </html>

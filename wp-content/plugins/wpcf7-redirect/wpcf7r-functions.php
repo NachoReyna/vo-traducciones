@@ -37,9 +37,17 @@ function wpcf7_get_extensions() {
  * @return void
  */
 function wpcf7_validate_nonce() {
-	check_admin_referer( 'manage_cf7_redirect', 'wpcf7r_nonce' );
+	$nonce = isset( $_REQUEST['wpcf7r_nonce'] ) && $_REQUEST['wpcf7r_nonce'] ? $_REQUEST['wpcf7r_nonce'] : '';
 
-	return true;
+	$verified = wp_verify_nonce(  $nonce  , 'manage_cf7_redirect');
+
+	if ( $verified ) {
+		return $verified;
+	}
+
+	header( 'HTTP/1.0 403 Forbidden' );
+	die( 'You are not allowed to access.' );
+
 }
 
 /**

@@ -107,7 +107,13 @@ class WPCF7R_Action_Save_Lead extends WPCF7R_Action {
 				if ( isset( $mapped_field['appear'] ) && $mapped_field['appear'] ) {
 					$label = $mapped_field['tag'] ? $mapped_field['tag'] : $field_key;
 
-					$string = $label . ': ' . get_post_meta( $lead_id, $field_key, true );
+					$value = get_post_meta( $lead_id, $field_key, true );
+
+					if ( is_array( $value ) ) {
+						$value = implode( ',', $value );
+					}
+
+					$string = $label . ': ' . $value;
 
 					echo sprintf( "<div class='preview-data'>%s</div>", $string );
 
